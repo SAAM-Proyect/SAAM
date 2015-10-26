@@ -1,0 +1,38 @@
+@mixin titulos($fsize){
+    margin: 0 0 20px 0;
+    font-family: Georgia, serif;
+    font-size:$fsize;
+    font-weight:bold;
+    text-transform: uppercase;
+}
+@mixin fondoBG($img){
+    background: url("#{$rutaimg}/#{$img}") repeat;
+    background-size: 20%;
+    
+}
+@mixin fondoImgContain($img){
+    background: url("#{$rutaimg}/#{$img}") no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+@mixin shadow($x,$y,$blur,$color){
+    -webkit-box-shadow: $x $y $blur $color;
+    -moz-box-shadow: $x $y $blur $color;
+    -o-box-shadow: $x $y $blur $color;
+    box-shadow: $x $y $blur $color;
+}
+
+@mixin sombras{
+    box-shadow: 12px 2px 4px rgba(23,33,133,0.4);
+    -webkit-box-shadow: 12px 2px 4px rgba(23,33,133,0.4);
+    -moz-box-shadow: 12px 2px 4px rgba(23,33,133,0.4);
+    -o-box-shadow: 12px 2px 4px rgba(23,33,133,0.4);
+}
+@mixin bordes{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -o-border-radius: 10px;
+}

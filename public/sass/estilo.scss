@@ -1,0 +1,115 @@
+//Declaro mis variables primero
+$fondo: #f2f2f2;
+$color-alerta: #00ff00;
+$color-error: #ff0000;
+$color-acceso: #ff00ff;
+$rutaimg: "../img";
+$imgPFondo: "water.jpg";
+$sombrax: "12px 2px 4px rgba(23,33,133,0.4)";
+@mixin fondoBG($img){
+  background: url("#{$rutaimg}/#{$img}") repeat;
+  background-size: 20%;
+
+}
+@mixin fondoImgContain($img){
+  background: url("#{$rutaimg}/#{$img}") no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+@mixin sombras{
+  box-shadow: #{$sombrax};
+  -webkit-box-shadow: #{$sombrax};
+  -moz-box-shadow: #{$sombrax};
+  -o-box-shadow: #{$sombrax};
+}
+
+//Variables
+$smartphone: "(max-width: 480px)";
+$desktop: "(min-width: 1024px)";
+@mixin tablets{
+  @media (min-width: 480px) and (max-width: 728px){
+    @content;
+  }
+}
+p.section{
+  font-size: 16px;
+  color: black;
+  @media #{$smartphone}{
+    font-size: 22px;
+    color: red;
+  }
+  @include tablets{
+    font-size: 18px;
+    color: green;
+  }
+  @media #{$desktop}{
+    font-size: 20px;
+    color: yellow;
+  }
+}
+
+
+
+$color: red;
+
+//Sentencias IF ELSE
+@mixin condicional($color){
+  background-color: ($color);
+  @if $color == blue {
+    border: 3px solid black;
+  } @else if $color == green{
+    border: 3px solid yellow;
+  }@else {
+    border: 3px solid tomato;
+  }
+}
+
+$fontsize: 20px;
+%button{
+  padding:10px;
+  font-size: $fontsize;
+  @if $fontsize == 20px {
+    margin: 50px;
+  } @else if($fontsize == 30px){
+    margin: 80px;
+  }@else {
+    margin: 100px;
+  }
+}
+
+.caja10{
+  @extend %button;
+  @include condicional(blue);
+}
+
+/*Estructura FOR*/
+$empieza: 0;
+$termina: 3;
+@for $i from $empieza through $termina {
+  .item-#{$i} { width: 2em * $i; }
+}
+
+
+/* Estructura WHILE */
+$is: 6;
+@while $is >= 0 {
+  .item-#{$is} { width: 2em * $is; }
+  $is: $is - 2;
+}
+
+/* Estructura FOR EACH*/
+@each $redes in facebook, twitter, youtube, gmas {
+  li.#{$redes}{
+    background: url(img/#{$redes}.png);
+  }
+}
+/* Estructura EACH con varios valores */
+@each $redes, $cursor in (facebook, default), (twitter,pointer), (youtube, move) {
+  li.#{$redes}-1{
+    background: url(img/#{$redes}.png);
+    cursor: $cursor;
+  }
+}

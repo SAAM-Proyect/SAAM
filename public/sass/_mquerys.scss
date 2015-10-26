@@ -1,0 +1,119 @@
+  //Variables
+  $smartphone: "(max-width: 480px)";
+  $desktop: "(min-width: 1024px)";
+  @mixin tablets{
+      @media (min-width: 480px) and (max-width: 728px){
+          @content;
+      }
+  }
+  p.section{
+      font-size: 16px;
+      color: black;
+      @media #{$smartphone}{
+          font-size: 22px;
+          color: red;
+      }
+      @include tablets{
+          font-size: 18px;
+          color: green;
+      }
+      @media #{$desktop}{
+          font-size: 20px;
+          color: yellow;
+      }
+  }
+  /************ Media Queries **************/
+  //Con la interpolación de variables podemos crear practicamente
+  //métodos o selectores desde cero, poniendo . o # si son ids
+  //o clases en caso contrario no lleva nada mas que la interpolación
+  //que es así #{#variable}
+
+  @mixin color_clase($color){
+      .#{$color} > h2{
+          //background-image: url(../img/#{$color}.png);
+          background-image: url("../img/#{'+$color+'}.png");
+          color: $color;
+          #{$fsize}: 20px;
+      }
+  }
+  $color: red;
+  $fsize: font-size;
+  $selector: "selector";
+  ##{$selector}{
+      color: $color;
+      #{$fsize}: 20px;
+  }
+  ##{$selector}-2{
+      color: $color;
+      #{$fsize}: 20px;
+  }
+
+  @include color_clase(red);
+  @include color_clase(yellow);
+  @include color_clase(white);
+  @include color_clase(blue);
+  @include color_clase(green);
+
+
+
+  //Sentencias IF ELSE
+  @mixin condicional($color){
+      background-color: ($color);
+      @if $color == blue {
+          border: 3px solid black;
+      } @else if $color == green{
+          border: 3px solid yellow;
+      }@else {
+          border: 3px solid tomato;
+      }
+  }
+
+  $fontsize: 20px;
+  %button{
+      padding:10px;
+      font-size: $fontsize;
+      @if $fontsize == 20px {
+          margin: 50px;
+      }
+
+  }
+
+  .caja10{
+      @extend %button;
+      @include condicional(blue);
+  }
+
+  /*Estructura FOR*/
+  $empieza: 0;
+  $termina: 3;
+  @for $i from $empieza through $termina {
+      .item-#{$i} { width: 2em * $i; }
+  }
+
+  /* Estructura WHILE */
+  $is: 6;
+  @while $is >= 0 {
+      .item-#{$is} { width: 2em * $is; }
+      $is: $is - 2;
+  }
+
+  /*
+  .item-0 { width: 2em * 6; }
+  .item-1 { width: 2em * 4; }
+  .item-2 { width: 2em * 2; }
+  .item-3 { width: 2em * 0; }
+  */
+
+  /* Estructura FOR EACH*/
+  @each $redes in facebook, twitter, youtube, gmas {
+      li.#{$redes}{
+          background: url(img/#{$redes}.png);
+      }
+  }
+  /* Estructura EACH con varios valores */
+  @each $redes, $cursor in (facebook, default), (twitter,pointer), (youtube, move) {
+      li.#{$redes}-1{
+          background: url(img/#{$redes}.png);
+          cursor: $cursor;
+      }
+  }
