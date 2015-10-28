@@ -2,7 +2,8 @@
  * Created by Horacio on 08/10/2015.
  */
 //Tenemos que cambiar las urls
-var urlx="http://localhost/flatpage/";
+var urlx="http://localhost/SAAM/";
+
 function signUp(){
     var name = $('form[name=signUp] input[name=name]')[0].value;
     var username = $('form[name=signUp] input[name=username]')[0].value;

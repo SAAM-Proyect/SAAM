@@ -1,4 +1,3 @@
-
 #cssmenu {
     background: #000 !important; /* Old browsers */
     border-bottom: 5px solid purple !important;
@@ -31,10 +30,10 @@
     padding: 0;
     display: block;
     position: relative;
-    transition: all 1s;
-    -webkit-transition: all 1s;
-    -moz-transition: all 1s;
-    -o-transition: all 1s;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
 }
 #cssmenu ul li:hover{
     background: #FFF;
@@ -249,11 +248,12 @@
     color: #FFF;
     padding: 12px 20px;
 }
-
+.active{background: #FFF;}
+.active:first-child{background: #000;}
 
 #cssmenu > ul > li:hover > a:after,
 #cssmenu > ul > li.active > a:after {
-    background: #000000;
+    background: #fff;
 }
 #cssmenu > ul > li:hover > a:before,
 #cssmenu > ul > li.active > a:before {
@@ -411,8 +411,22 @@
         top: 26px;
     }
 }
+.centerdiv{
+    margin: 0 auto;
+    width: 300px;
+    height: 320px;
+    background-color: #FFF;
+    padding: 30px;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    margin-top: 20%;
+
+}
 @media screen and (min-width: 800px) {
-    #cssmenu > ul > li:nth-last-child(1){right: 0 !important; position: absolute;}
+
+    .centerdiv{
+        margin-top: 10%;
+    }
 }
 #cssmenu > ul > li:first-child.active{
     padding-top: 3px;
@@ -422,4 +436,276 @@
     height: 20px;
     width: 20px;
     margin-top: -5px;
+}
+
+.contenedorlogin{
+    padding-top: 20%;
+    height: 100%;
+    width: 100%;
+}
+
+
+.principalback{
+    background: #34495e url("#{$rutaimg}/#{$imgPFondo}");
+    /*background-repeat: repeat;
+    background-position: 0 0;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;*/
+}
+.imagen-login{
+    position: relative;
+    max-width: 120px;
+    max-height: 120px;
+    margin: 0 auto;
+    margin-top: -90px;
+}
+
+.imagen-login > img{
+    border: 10px solid #FFF;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+.imagen-login::before{
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: inset 0 0 18px rgba(0,0,0,.6);
+    -moz-box-shadow: inset 0 0 18px rgba(0,0,0,.6);
+    -webkit-box-shadow: inset 0 0 18px rgba(0,0,0,.6);
+    border: 10px solid #FFF;
+}
+.p_header{
+    height: 50px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2034a3+0,432be2+50,210baa+100 */
+    background: #2034a3; /* Old browsers */
+    background: -moz-linear-gradient(top, #2034a3 0%, #432be2 50%, #210baa 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2034a3), color-stop(50%,#432be2), color-stop(100%,#210baa)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #2034a3 0%,#432be2 50%,#210baa 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #2034a3 0%,#432be2 50%,#210baa 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #2034a3 0%,#432be2 50%,#210baa 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #2034a3 0%,#432be2 50%,#210baa 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2034a3', endColorstr='#210baa',GradientType=0 ); /* IE6-9 */
+}
+.cincuenta{
+    height: 50px;
+}
+.veinte{
+    height: 20px;
+}
+ul.right.hide-on-med-and-down > li{
+    height: 50px;
+}
+@media only screen and (min-width: 601px){
+    nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+        height: 50px;
+        line-height: 50px;
+    }
+}
+nav  ul  a {
+    font-size: 0.8rem;
+}
+.cien{ width: 100%; }
+#signInForm{
+    margin-top: 20px;
+}
+.centerdiv > p{
+    color: #9A5EAD;
+    margin: 0 auto;
+    font-size: 22px;
+    text-align: center;
+}
+.centerdiv  input[type="text"], .centerdiv  input[type="password"], .centerdiv  input[type="email"]{
+    border-radius: 4px;
+    border: 3px solid rgba(154, 94, 173, 0.3) !important;
+    padding: 0;
+    padding-left: 10px;
+    width: 95%;
+    color: #aaa;
+}
+.centerdiv button{
+    border-radius: 4px;
+    background-color: rgba(128, 0, 128, 0.6) !important;
+    color: #FFF;
+    border: 3px solid #d3d3d3;
+    padding: 7px;
+
+}
+.centerdiv button:hover{
+    background-color: rgba(128, 0, 128, 0.9) !important;
+    color: #FFF;
+}
+.passRecover > a, .returnLogin > a{
+    color: #aaa;
+    font-weight: 300;
+    text-align:center;
+}
+.passRecover, .returnLogin{text-align:center;}
+
+.button-Users{
+    width: 84% !important;
+    background-image: url("#{$rutaimg}/#{$imgUser}");
+    background-size: 24px;
+    background-repeat: no-repeat;
+    background-position: 5px 10px;
+    padding-left: 35px !important;
+    vertical-align: middle;
+}
+.button-security{
+    width: 84% !important;
+    background-image: url("#{$rutaimg}/#{$imgSecu}");
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: 5px 12px;
+    padding-left: 35px !important;
+    vertical-align: middle;
+}
+.button-email{
+    width: 84% !important;
+    background-image: url("#{$rutaimg}/#{$imgEmail}");
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: 5px 12px;
+    padding-left: 35px !important;
+    vertical-align: middle;
+}
+
+#passRecover{display: none;}
+.errorX{
+    display: none;
+    padding: 10px;
+    background-color: rgba(255,0,0,0.2);
+    position: absolute;
+    bottom: 0 !important;
+    left: 0 !important;
+    margin: 10px;
+    border: 3px solid rgba(255,0,0,0.5) !important;
+    color: #FFF;
+}
+.errorGood{
+    display: none;
+    padding: 10px;
+    background-color: rgba(0,255,0,0.2);
+    position: absolute;
+    bottom: 0 !important;
+    left: 0 !important;
+    margin: 10px;
+    border: 3px solid rgba(0,255,0,0.4) !important;
+    color: #FFF;
+}
+.mensaje{
+    font-size: 11px;
+    color: #AAA;
+    line-height: inherit;
+}
+nav {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#45484d+0,000000+100;Black+3D+%231 */
+    background: rgb(69,72,77) !important; /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(69,72,77,1) 0%, rgba(0,0,0,1) 100%) !important; /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(69,72,77,1)), color-stop(100%,rgba(0,0,0,1))) !important; /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%) !important; /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%) !important; /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%) !important; /* IE10+ */
+    background: linear-gradient(to bottom, rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%) !important; /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 ) !important; /* IE6-9 */
+    border-bottom: 3px solid #5a5a5a !important;
+}
+a:hover{color:#AAA;}
+.logo{
+    width: 30px;
+    height: 30px;
+    margin-top: -15px;
+    margin-bottom: -10px !important;
+    margin-left: -5px;
+    margin-right: 5px;
+}
+.titulo{
+    padding-top: 10px !important;
+}
+.logoUsuarioLoged{
+    width: 30px;
+    height: 30px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    display: inline-flex;
+    position: absolute;
+    z-index: 1000;
+    margin-left: 15px;
+    margin-top: 7px;
+}
+.nombreUsuario {
+    padding-left: 35px;
+}
+.area2{
+    z-index: 999;
+
+}
+.contenedor{
+    height: 90%;
+}
+footer{
+    z-index: 9999;
+}
+.sliderChild{
+    display: none;
+}
+@media screen and (min-width: 1024px) {
+    .area1{
+    }
+    .area2{
+        -webkit-box-shadow: 10px 10px 70px rgba(0,0,0,0.6);
+        -moz-box-shadow: 10px 10px 60px rgba(0,0,0,0.6);
+        box-shadow: 10px 10px 70px rgba(0,0,0,0.6);
+    }
+    .sliderChild{
+        background: rgba(255,255,255,0.7);
+        -webkit-box-shadow: 0px 0px 35px rgba(0,0,0,0.6);
+        -moz-box-shadow: 0px 0px 35px rgba(0,0,0,0.6);
+        box-shadow: 0px 0px 35px rgba(0,0,0,0.6);
+        height: 500px;
+        width: 800px;
+        display: block;
+        top: 50%;
+        transform: translateY(20%);
+        left: 35%;
+        margin: 0 auto !important;
+
+        padding: 30px;
+    }
+}
+
+.preloaderLogin{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 9999999999999;
+    background: rgba(67, 0, 67, 1);
+    color: #FFF;
+}
+.preloaderLogin  p{
+    top: 40% !important;
+    left: 50%;
+    position: absolute;
+}
+
+@media screen and (max-width: 800px) {
+    .centerdiv{
+        mergin-top: 5%;
+    }
+    .area2{
+    }
+    .contenedorlogin{
+        padding-top: 0;
+    }
+    footer{
+        position: fixed;
+    }
+
 }

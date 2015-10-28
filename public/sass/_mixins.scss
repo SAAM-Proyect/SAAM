@@ -11,12 +11,13 @@
     
 }
 @mixin fondoImgContain($img){
-    background: url("#{$rutaimg}/#{$img}") no-repeat center center fixed;
+    background: #000000 url("#{$rutaimg}/#{$img}") no-repeat center center fixed;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
 }
+
 @mixin shadow($x,$y,$blur,$color){
     -webkit-box-shadow: $x $y $blur $color;
     -moz-box-shadow: $x $y $blur $color;

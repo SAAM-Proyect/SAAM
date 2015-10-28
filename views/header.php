@@ -12,6 +12,7 @@
     <!--link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css"/-->
     <link href="<?php echo URL; ?>public/css/materialize.css" rel="stylesheet" type="text/css"/>
     <link lazyload href="<?php echo URL; ?>public/css/style.css" rel="stylesheet"/>
+    <link lazyload href="<?php echo URL; ?>public/css/estilo.css" rel="stylesheet"">
     <!-- Compiled and minified JavaScript -->
     <script type="text/javascript" src="<?php echo URL; ?>public/js/jquery.min.js"></script>
     <script src="<?php echo URL; ?>public/js/materialize/js/bin/materialize.min.js" defer></script>

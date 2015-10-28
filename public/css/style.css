@@ -13,6 +13,29 @@ body {
   background-color: #f2f2f2;
 }
 
+.fondox {
+  background: #000000 url("../img/hola.jpg") no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+.secondx:before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #6a06ac;
+  background-image: -webkit-linear-gradient(110deg, #6a06ac 0%, #815CC4 56%, #4C2E61 76%, #6023A2 79%, #742794 87%, #6F4B7B 100%);
+  background-image: -moz-linear-gradient(110deg, #6a06ac 0%, #815CC4 56%, #A36ACC 76%, #A76BCD 79%, #B571D1 87%, #CA79D6 100%);
+  background-image: -o-linear-gradient(110deg, #6a06ac 0%, #815CC4 56%, #A36ACC 76%, #A76BCD 79%, #B571D1 87%, #CA79D6 100%);
+  background-image: linear-gradient(110deg, #6a06ac 0%, #171254 56%, #211042 76%, #1f0c40 79%, #190240 87%, #15072D 100%);
+  width: 100%;
+  height: 120%;
+  opacity: .0;
+}
+
 a, a:hover, a:active, .smallText .button {
   text-decoration: none;
   color: #2fabc4;
@@ -170,7 +193,7 @@ body {
 }
 
 .modal2.modal-purple.stay-open {
-  background: #34495e url("../img/back.png") no-repeat center center fixed;
+  background: #34495e url("../img/hola.jpg") no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -215,7 +238,7 @@ body {
 }
 
 .principalback {
-  background: #34495e url("../img/back.png") no-repeat center center fixed;
+  background: #34495e url("../img/hola.jpg") no-repeat center center fixed;
   background-repeat: repeat;
   background-position: 0 0;
   background-size: cover;
