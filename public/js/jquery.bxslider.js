@@ -1,5 +1,4 @@
 ;(function($){
-
 	var plugin = {};
 
 	var defaults = {
