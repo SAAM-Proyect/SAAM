@@ -7,4 +7,7 @@
             $data["codProducto"] = $_POST["codProducto"];
             return $this->model->_getProduct($data);
         }
+        function inventario(){
+            $this->view->render($this, 'inventario');
+        }
     }
