@@ -69,5 +69,6 @@
 
         }
     }
-</script> 
+</script>
+<a href="<?php echo URL; ?>Inventario/inventario">Hola</a>
 <?php require('views/footer.php'); ?> 

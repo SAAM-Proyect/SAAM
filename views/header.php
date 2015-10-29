@@ -11,6 +11,7 @@
     <!-- Compiled and minified CSS -->
     <!--link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css"/-->
     <link href="<?php echo URL; ?>public/css/materialize.css" rel="stylesheet" type="text/css"/>
+
     <link lazyload href="<?php echo URL; ?>public/css/style.css" rel="stylesheet"/>
     <link lazyload href="<?php echo URL; ?>public/css/estilo.css" rel="stylesheet"">
     <!-- Compiled and minified JavaScript -->
@@ -56,6 +57,7 @@
             <ul>
                 <li><a href="<?php echo URL."User/profile"; ?>">Ver perfil</a></li>
                 <li><a href="#">Configuración</a></li>
+                <li><a href="<?php echo URL."Inventario/inventario";?>">Inventario</a></li>
                 <li><a href="<?php echo URL."User/destroySession"; ?>">Salir</a></li>
             </ul>
         </li>

@@ -6,6 +6,8 @@
 </div>
 <script>
     $(function(){
+
+
         $('#id').addClass('hover').removeClass('normal').fadeIn("slow");
         $('#closeSessionBtn').click(function(){
             document.location = "<?php echo URL; ?>User/destroySession";
