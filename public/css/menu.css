@@ -284,7 +284,7 @@
     display: block;
 }
 
-@media all and (max-width: 800px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 1024px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-resolution: 192dpi) and (max-width: 1024px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
+@media all and (max-width: 800px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1023px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1023px), only screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 1023px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1023px), only screen and (min-resolution: 192dpi) and (max-width: 1023px), only screen and (min-resolution: 2dppx) and (max-width: 1023px) {
 
     #cssmenu > ul {
         max-height: 0;
@@ -419,14 +419,22 @@
     padding: 30px;
     box-shadow: 10px 10px 20px rgba(0,0,0,0.5);
     border-radius: 10px;
-    margin-top: 20%;
+
 
 }
-@media screen and (min-width: 800px) {
-
+@media screen and (min-width: 1023px) {
     .centerdiv{
-        margin-top: 10%;
+        margin-top: 0%;
     }
+    .contenedorlogin{
+        padding-top: 15% !important;
+    }
+}
+@media screen and (min-width: 1025px) {
+    .centerdiv{
+        margin-top: 20%;
+    }
+
 }
 #cssmenu > ul > li:first-child.active{
     padding-top: 3px;
@@ -676,7 +684,6 @@ footer{
         transform: translateY(20%);
         left: 35%;
         margin: 0 auto !important;
-
         padding: 30px;
     }
 }
@@ -697,7 +704,7 @@ footer{
 
 @media screen and (max-width: 800px) {
     .centerdiv{
-        mergin-top: 5%;
+        margin-top: 20%;
     }
     .area2{
     }

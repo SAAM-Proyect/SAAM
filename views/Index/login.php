@@ -1,14 +1,21 @@
 <?php require 'views/head.php';?>
     <div class="contenedor">
         <div class="area1">
-            <div class="sliderChild">
+            <!--div class="sliderChild">
                 <ul class="bxslider">
                     <li><img src="<?php echo URL; ?>public/img/slider/1.jpg" /></li>
                     <li><img src="<?php echo URL; ?>public/img/slider/2.jpg" /></li>
                     <li><img src="<?php echo URL; ?>public/img/slider/3.jpg" /></li>
                     <li><img src="<?php echo URL; ?>public/img/slider/4.jpg" /></li
                 </ul>
-            </div>
+            </div-->
+            <ul id="nav">
+                <li class="item1"><a href="">item 1</a></li>
+                <li class="item2"><a href="">item 2</a></li>
+                <li class="item3"><a href="">item 3</a></li>
+                <li class="item4"><a href="">item 4</a></li>
+            </ul>
+
         </div>
         <div class="area2">
             <div class="contenedorlogin">
