@@ -32,7 +32,7 @@ function signIn(){
     var contrasena = $('form[name=signIn] input[name=contrasena]')[0].value;
     $.ajax({
         type: "POST",
-        url: urlx+"User/signIn",
+        url: urlx+"Usuario/signIn",
         data: {alias: alias, contrasena: contrasena}
     }).done(function(response){
         if(response == "1"){

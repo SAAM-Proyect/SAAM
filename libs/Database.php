@@ -47,6 +47,20 @@ class Database extends PDO{
         return $sth->fetchAll($fetchMode);
     }
     /**
+     * @param $ProcedureName
+     * @param array $array
+     * @param int $fetchMode
+     * @return array
+     */
+    public function procedure_All($ProcedureName, $array=array(), $fetchMode = PDO::FETCH_ASSOC){
+        $sth = $this->prepare("SELECT * FROM $ProcedureName");
+        foreach ($array as $key => $value){
+            $sth->bindValue("$key", $value);
+        }
+        $sth->execute();
+        return $sth->fetchAll($fetchMode);
+    }
+    /**
      * Sólo para selección por niockname
      * @param $ProcedureName Nombre del procedimiento almacenado
      * @param $nickname Nickname del login

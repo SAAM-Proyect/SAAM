@@ -54,7 +54,7 @@
         </script>
     </head>
     <body class="fondox secondx">
-        <div class="preloaderLogin"><p><img src="<?php echo URL; ?>public/img/cargando.gif"></p></div>
+        <div class="preloaderLogin"><p><img src="<?php echo URL; ?>public/img/cargando.gif" width="40"></p></div>
         <nav id='cssmenu'>
             <ul>
                 <li class="active"><a href="<?php echo URL; ?>"><span class="titulo">SAAM</span></a></li>

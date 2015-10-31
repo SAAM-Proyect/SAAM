@@ -1,9 +1,9 @@
 <?php
-    class User extends Controller{
+    class Usuario extends Controller{
         function __construct() {
             parent::__construct();
         }
-        public function profile(){
+        public function perfil(){
             if(Session::exist()){
                 $data["id"]=Session::getValue("ID");
                 $this->view->userData = $this->model->getUser($data)[0];
@@ -37,16 +37,17 @@
             }
         }
         public function signIn(){
-            //procedure_Login
             if(isset($_POST["alias"]) && isset($_POST["contrasena"])){
-                $datax["alias"] = $_POST["alias"];
-                $response = $this->model->_callProcedureSelect($datax);
+                $data["alias"] = $_POST["alias"];
+                $response = $this->model->_callProcedureSelect($data);
                 $response = $response[0];
                 if($response["Contrasena"] == Hash::create(ALGO,$_POST["contrasena"], HASH_KEY)){
                     $this->createSession($response["Alias"],$response["id_Usuario"]);
                     //$this->createSession($response["username"]);
                     //echo '<script>alert("'.$response["id_Users"].'");</script>';
                     echo 1;
+                }else{
+                    echo "<script>alert('Hola');</script>";
                 }
             }
         }
@@ -97,7 +98,7 @@
             Session::setValue('U_NAME', $username);
             Session::setValue('ID', $id);
         }
-        function destroySession(){
+        function salir(){
             Session::destroy();
             header('location:'.URL);
         }
