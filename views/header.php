@@ -45,6 +45,8 @@
         })(jQuery);
     </script>
     <script type="text/javascript" src="<?php echo URL; ?>public/js/script.js"></script>
+    <link  href="<?php echo URL; ?>public/css/Proyecto-index.css" rel="stylesheet"/>
+    <link  href="<?php echo URL; ?>public/css/estilo.css" rel="stylesheet"/>
 </head>
 <body>
 <nav id='cssmenu'>
