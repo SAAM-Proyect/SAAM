@@ -55,10 +55,10 @@
         <li><a href='#'><span>Archivos</span></a></li>
         <li class="has-sub"><a href=''><span><?php echo ucfirst(Session::getValue('U_NAME')); ?></span></a>
             <ul>
-                <li><a href="<?php echo URL."User/profile"; ?>">Ver perfil</a></li>
+                <li><a href="<?php echo URL."Usuario/perfil"; ?>">Ver perfil</a></li>
                 <li><a href="#">Configuración</a></li>
                 <li><a href="<?php echo URL."Inventario/inventario";?>">Inventario</a></li>
-                <li><a href="<?php echo URL."User/destroySession"; ?>">Salir</a></li>
+                <li><a href="<?php echo URL."Usuario/salir"; ?>">Salir</a></li>
             </ul>
         </li>
     </ul>

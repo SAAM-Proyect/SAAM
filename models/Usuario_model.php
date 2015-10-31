@@ -1,5 +1,5 @@
 <?php
-    class User_model extends Model{
+    class Usuario_model extends Model{
         function __construct() {
             parent::__construct();
         }
@@ -8,7 +8,7 @@
         }
         function SignIn($data){
             //return $this->db->select($fields,'usuarios',$where);
-            return $this->db->select("SELECT * FROM Usuario WHERE alias = :alias", $data);
+            return $this->db->select("SELECT * FROM Usuario WHERE Alias = :alias", $data);
         }
         /*function getUser($id){
             return $this->db->select("SELECT * FROM Users WHERE id_Users = :id", array(":id"=>$id));
