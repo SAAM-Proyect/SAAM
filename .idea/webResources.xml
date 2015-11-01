@@ -5,10 +5,10 @@
       <entry url="file://$PROJECT_DIR$">
         <entryData>
           <resourceRoots>
-            <path value="file://$PROJECT_DIR$/models" />
-            <path value="file://$PROJECT_DIR$/controllers" />
-            <path value="file://$PROJECT_DIR$/views" />
             <path value="file://$PROJECT_DIR$" />
+            <path value="file://$PROJECT_DIR$/controllers" />
+            <path value="file://$PROJECT_DIR$/models" />
+            <path value="file://$PROJECT_DIR$/views" />
           </resourceRoots>
         </entryData>
       </entry>
