@@ -13,6 +13,7 @@
                 header("Location: ".URL);
             }
         }
+
         public function update(){
             if($_POST["id"]){
                 $data["name"] = $_POST["name"];

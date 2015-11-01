@@ -15,7 +15,7 @@
       </option>
       <option name="outputFromStdout" value="true" />
       <option name="passParentEnvs" value="true" />
-      <option name="program" value="C:/Ruby193/bin/sass.bat" />
+      <option name="program" value="$APPLICATION_HOME_DIR$/plugins/sass/lib/sass.jar" />
       <option name="scopeName" value="Project Files" />
       <option name="trackOnlyRoot" value="true" />
       <option name="workingDir" value="$FileDir$" />

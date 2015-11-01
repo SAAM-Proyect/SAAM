@@ -1,9 +1,13 @@
-@media screen and (min-width: 800px) {
-    #cssmenu > ul > li:nth-last-child(1){right: 0 !important; position: absolute;}
-    .centerdiv{
-        margin-top: 20%;
+
+
+/*Moises Barrera Keb */
+
+    /*Index*/
+    .Estado_Proyecto{
+        background-color: #2f3439 !important;
+        border-bottom-left-radius: 50px !important;
+        border-top-left-radius: 50px !important;
+        width: 500px !important;
     }
-}
-footer{
-    position: fixed !important;
-}
+    /**/
+/*Fin del CSS de Moises Barrera Keb*/
