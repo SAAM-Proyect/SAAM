@@ -6,6 +6,4 @@ class Proyectos extends Controller{
     function index(){
         $this->view->render($this,'index');
     }
-
-
 }

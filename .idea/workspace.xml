@@ -1,23 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bcd8676d-c391-4c3a-980b-e4ad2d9399cb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/Progres-Bar-Circular.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/Progres-Bar-Circular.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/Progres-Bar-Circular.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/Progres-Bar-Circular.scss" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/css/Proyecto-index.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/css/Proyecto-index.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/sass/Proyecto-index.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/sass/Proyecto-index.scss" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/estilo.css" afterPath="$PROJECT_DIR$/public/css/estilo.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/header.php" afterPath="$PROJECT_DIR$/views/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="bcd8676d-c391-4c3a-980b-e4ad2d9399cb" name="Default" comment="lkajhsdkjahsdkjashd">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/Database.php" afterPath="$PROJECT_DIR$/libs/Database.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/Faqs.php" afterPath="$PROJECT_DIR$/controllers/Faqs.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/Proyectos.php" afterPath="$PROJECT_DIR$/controllers/Proyectos.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/Usuario.php" afterPath="$PROJECT_DIR$/controllers/Usuario.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.php" afterPath="$PROJECT_DIR$/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/menu.css" afterPath="$PROJECT_DIR$/public/css/menu.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
+    <list id="cca6261b-cc5a-468e-815e-40cea3c65902" name="Rejected commit: Default" comment="lkajhsdkjahsdkjashd" />
     <ignored path="SAAM.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
+    <ignored path="config.php" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,8 +23,22 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="ComposerSettings">
+    <pharConfigPath>C:\wamp\www\SAAM\composer.json</pharConfigPath>
+    <pharPath>C:\wamp\www\SAAM\composer.phar</pharPath>
+    <phpPath>C:\wamp\bin\php\php5.5.12\php.exe</phpPath>
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/SAAM$SAAM.coverage" NAME="SAAM Coverage Results" MODIFIED="1446149293271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="FLATTEN" value="false" />
+    <option name="GROUP_BY_TYPE" value="true" />
+    <option name="SORT_CHILDREN" value="false" />
+    <option name="SHOW_TABLE_CONSTRAINTS" value="true" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -35,78 +46,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="estilo.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/css/estilo.css">
+      <file leaf-file-name="Database.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/libs/Database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/views/Proyectos/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.03504673">
-              <caret line="1" column="37" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Progres-Bar-Circular.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/css/Progres-Bar-Circular.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="280" column="1" selection-start-line="280" selection-start-column="1" selection-end-line="280" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Alta.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/Proyectos/Alta.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.9583335">
-              <caret line="48" column="54" selection-start-line="48" selection-start-column="54" selection-end-line="48" selection-end-column="54" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Progres-Bar-Circular.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/sass/Progres-Bar-Circular.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.625">
-              <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-              <folding />
+            <state vertical-scroll-proportion="0.8991098">
+              <caret line="84" column="7" selection-start-line="84" selection-start-column="7" selection-end-line="84" selection-end-column="7" />
+              <folding>
+                <element signature="n#procedure_IUD#0;n#Database#0;n#!!top" expanded="true" />
+                <element signature="n#procedure_S#0;n#Database#0;n#!!top" expanded="true" />
+                <element signature="n#procedure_All#0;n#Database#0;n#!!top" expanded="true" />
+                <element signature="n#Views_All#0;n#Database#0;n#!!top" expanded="true" />
+                <element signature="n#select#0;n#Database#0;n#!!top" expanded="true" />
+                <element signature="n#insert#0;n#Database#0;n#!!top" expanded="true" />
+                <element signature="n#update#0;n#Database#0;n#!!top" expanded="true" />
+                <element signature="n#delete#0;n#Database#0;n#!!top" expanded="true" />
+                <marker date="1446339912391" expanded="true" signature="2570:2584" placeholder="SELECT * FRO..." />
+                <marker date="1446339912391" expanded="true" signature="3013:3027" placeholder="SELECT * FRO..." />
+                <marker date="1446339912391" expanded="true" signature="5138:5194" placeholder="INSERT INTO ..." />
+                <marker date="1446339912391" expanded="true" signature="6371:6409" placeholder="DELETE FROM ..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
-        <option value="CSS File" />
+        <option value="Horacio Espinosa" />
       </list>
     </option>
-    <option name="SCHEME" value="Project" />
-  </component>
-  <component name="Git.Settings">
-    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="AUTO_COMMIT_ON_CHERRY_PICK" value="true" />
@@ -115,20 +85,29 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/views/Inventario/index.php" />
-        <option value="$PROJECT_DIR$/controllers/Inventario.php" />
-        <option value="$PROJECT_DIR$/models/Inventario_model.php" />
-        <option value="$PROJECT_DIR$/config.php" />
-        <option value="$PROJECT_DIR$/controllers/Proyectos.php" />
-        <option value="$PROJECT_DIR$/public/sass/Proyecto-index.css" />
-        <option value="$PROJECT_DIR$/public/sass/style.scss" />
-        <option value="$PROJECT_DIR$/public/sass/Proyecto-index.scss" />
-        <option value="$PROJECT_DIR$/public/css/Proyecto-index.css" />
-        <option value="$PROJECT_DIR$/public/css/Progres-Bar-Circular.css" />
-        <option value="$PROJECT_DIR$/views/header.php" />
-        <option value="$PROJECT_DIR$/views/Proyectos/index.php" />
+        <option value="$PROJECT_DIR$/controllers/Error.php" />
+        <option value="$PROJECT_DIR$/public/js/_login.js" />
+        <option value="$PROJECT_DIR$/public/sass/_mixins.scss" />
+        <option value="$PROJECT_DIR$/public/sass/_variables.scss" />
+        <option value="$PROJECT_DIR$/public/css/jquery.bxslider.css" />
+        <option value="$PROJECT_DIR$/public/sass/_styles.scss" />
+        <option value="$PROJECT_DIR$/public/js/jquery.bxslider.min.js" />
+        <option value="$PROJECT_DIR$/public/js/jquery.bxslider.js" />
+        <option value="$PROJECT_DIR$/public/js/bower.json" />
+        <option value="$PROJECT_DIR$/views/head.php" />
         <option value="$PROJECT_DIR$/public/css/estilo.css" />
-        <option value="$PROJECT_DIR$/public/sass/Progres-Bar-Circular.scss" />
+        <option value="$PROJECT_DIR$/controllers/Inventario.php" />
+        <option value="$PROJECT_DIR$/views/header.php" />
+        <option value="$PROJECT_DIR$/models/Usuario_model.php" />
+        <option value="$PROJECT_DIR$/public/js/metodos_foot.js" />
+        <option value="$PROJECT_DIR$/views/Index/login.php" />
+        <option value="$PROJECT_DIR$/public/css/menu.css" />
+        <option value="$PROJECT_DIR$/controllers/Faqs.php" />
+        <option value="$PROJECT_DIR$/controllers/Proyectos.php" />
+        <option value="$PROJECT_DIR$/views/Proyectos/Alta.php" />
+        <option value="$PROJECT_DIR$/config.php" />
+        <option value="$PROJECT_DIR$/controllers/Usuario.php" />
+        <option value="$PROJECT_DIR$/libs/Database.php" />
       </list>
     </option>
   </component>
@@ -140,14 +119,47 @@
     <order />
   </component>
   <component name="PhpServers">
-    <servers />
+    <servers>
+      <server host="localhost" id="d9028103-dd38-4ae3-ac5e-3aad9a0839e6" name="localhost" use_path_mappings="true" />
+    </servers>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="10" />
-    <option name="y" value="23" />
-    <option name="width" value="1430" />
-    <option name="height" value="834" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1616" />
+    <option name="height" value="886" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>File Watchers</id>
+          </State>
+          <State>
+            <id>Internationalization issues</id>
+          </State>
+          <State>
+            <id>PHP</id>
+          </State>
+          <State>
+            <id>Sass/SCSS</id>
+          </State>
+          <State>
+            <id>UndefinedPHP</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Blade files</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -173,7 +185,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -220,7 +231,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Proyectos" />
+              <option name="myItemId" value="Usuario" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -234,11 +245,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sass" />
+              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -252,47 +259,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Progres-Bar-Circular.scss" />
-              <option name="myItemType" value="com.intellij.plugins.watcher.projectView.NestingTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SAAM" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SAAM" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SAAM" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SAAM" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="libs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -312,13 +279,14 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.splitter.proportion" value="0.22526935" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$APPLICATION_HOME_DIR$/plugins/sass/lib/sass.jar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="213" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="213" />
@@ -337,12 +305,8 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FullScreen" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public/sass" />
-    </key>
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/wamp/www/SAAM/views/Index/login.php" />
   </component>
   <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
     <UpdatedFiles>
@@ -358,17 +322,11 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/SAAM.iml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/encodings.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/controllers/Inventario.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/libs/Database.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/css/menu.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/img/cargando.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/js/metodos_foot.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/views/Index/index.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/views/Index/login.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/views/Inventario/inventario.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/views/head.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/misc.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/watcherTasks.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/config.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/css/estilo.css</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/views/header.php</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
@@ -377,22 +335,16 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.gitignore</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/dictionaries/Horacio.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/php.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/composer.phar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/controllers/Usuario.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/models/Usuario_model.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/css/fonts/icomoon.eot</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/css/fonts/icomoon.svg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/css/fonts/icomoon.ttf</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/css/fonts/icomoon.woff</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/css/fontsinventarios.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/css/styleInventario.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/img/ss6_03.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/views/Usuario/profile.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/controllers/Proyectos.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/css/Progres-Bar-Circular.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/css/Progres-Bar-Circular.css.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/sass/.sass-cache/b1e2f8214008b9db91ef1aaa74e89c1668717b26/Progres-Bar-Circular.scssc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/sass/.sass-cache/b1e2f8214008b9db91ef1aaa74e89c1668717b26/Proyecto-index.scssc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/sass/Progres-Bar-Circular.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/sass/Progres-Bar-Circular.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/views/Proyectos/Alta.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/views/Proyectos/Modificaciones.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/views/Proyectos/index.php</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Deleted" />
@@ -400,10 +352,6 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="true" />
           <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/controllers/User.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/models/User_model.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/prueba.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/views/User/profile.php</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Restored" />
@@ -485,8 +433,11 @@
       </FILE-GROUP>
     </UpdatedFiles>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PHPUnit.SAAM">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
       <method />
     </configuration>
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -512,6 +463,13 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="false" name="SAAM" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner directory="$PROJECT_DIR$" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="PHPUnit.SAAM" />
+    </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
@@ -530,89 +488,81 @@
       <option name="project" value="LOCAL" />
       <updated>1445892666433</updated>
     </task>
-    <task id="LOCAL-00002" summary="Moises cambios de moises">
-      <created>1446334209619</created>
+    <task id="LOCAL-00002" summary="Pequeños cambios">
+      <created>1445926555128</created>
       <option name="number" value="00002" />
       <option name="project" value="LOCAL" />
-      <updated>1446334209619</updated>
+      <updated>1445926555128</updated>
     </task>
-    <task id="LOCAL-00003" summary="Moises cambios de moises">
-      <created>1446334572802</created>
+    <task id="LOCAL-00003" summary="Cambios login">
+      <created>1446007102680</created>
       <option name="number" value="00003" />
       <option name="project" value="LOCAL" />
-      <updated>1446334572802</updated>
+      <updated>1446007102680</updated>
     </task>
-    <task id="LOCAL-00004" summary="Moises cambios de moises">
-      <created>1446334579407</created>
+    <task id="LOCAL-00004" summary="Cambios login">
+      <created>1446007296308</created>
       <option name="number" value="00004" />
       <option name="project" value="LOCAL" />
-      <updated>1446334579407</updated>
+      <updated>1446007296308</updated>
     </task>
-    <task id="LOCAL-00005" summary="Moises cambios de moises">
-      <created>1446334583922</created>
+    <task id="LOCAL-00005" summary="alskdjasd">
+      <created>1446246740144</created>
       <option name="number" value="00005" />
       <option name="project" value="LOCAL" />
-      <updated>1446334583922</updated>
+      <updated>1446246740144</updated>
     </task>
-    <task id="LOCAL-00006" summary="Moises cambios de moises">
-      <created>1446334935136</created>
+    <task id="LOCAL-00006" summary="lkajhsdkjahsdkjashd">
+      <created>1446326972552</created>
       <option name="number" value="00006" />
       <option name="project" value="LOCAL" />
-      <updated>1446334935136</updated>
+      <updated>1446326972552</updated>
     </task>
-    <task id="LOCAL-00007" summary="Moises cambios de moises">
-      <created>1446338379731</created>
+    <task id="LOCAL-00007" summary="lkajhsdkjahsdkjashd">
+      <created>1446334118743</created>
       <option name="number" value="00007" />
       <option name="project" value="LOCAL" />
-      <updated>1446338379731</updated>
+      <updated>1446334118743</updated>
     </task>
     <option name="localTasksCounter" value="8" />
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="23" width="1430" height="834" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288948" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18011527" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32960895" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="GitLabIntegration" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288948" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.76785713" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32756326" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17994505" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18766066" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969153" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3997253" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1788269" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -627,340 +577,437 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Pequeños cambios" />
-    <MESSAGE value="Pequeños cambios by omar" />
-    <MESSAGE value="Moises" />
-    <MESSAGE value="Moises cambios de moises" />
-    <option name="LAST_COMMIT_MESSAGE" value="Moises cambios de moises" />
+    <MESSAGE value="Cambios login" />
+    <MESSAGE value="alskdjasd" />
+    <MESSAGE value="lkajhsdkjahsdkjashd" />
+    <option name="LAST_COMMIT_MESSAGE" value="lkajhsdkjahsdkjashd" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/controllers/Inventario.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/foot.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="13" column="58" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="58" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
+    <entry file="file://$PROJECT_DIR$/views/Usuario/profile.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
+    <entry file="file://$PROJECT_DIR$/views/Index/login.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.208333">
-          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/foot.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/Inventario.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="5" />
+          <caret line="14" column="71" selection-start-line="14" selection-start-column="71" selection-end-line="14" selection-end-column="71" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/Index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.875">
-          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="17" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/Error.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.0">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/Error/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/Index/index.php">
+    <entry file="file://$PROJECT_DIR$/controllers/Usuario.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="37" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/head.php">
+    <entry file="file://$PROJECT_DIR$/controllers/Error.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7803468">
-          <caret line="36" column="42" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/images/bx_loader.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/images/controls.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/Database.php">
+    <entry file="file://$PROJECT_DIR$/controllers/Usuario.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="63.041668">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27419356">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.100890204">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/foot.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.100890204">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/Error.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.100890204">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/sass/_mixins.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.8727274">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/Index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.7307693">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/sass/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.9230769">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.55857146">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/sass/_styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.024806201">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/jquery.bxslider.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4857143">
+          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.60534126">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/jquery.bxslider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/jquery.bxslider.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/Inventario_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1517341">
-          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.20148148">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/Proyectos/Modificaciones.php">
+    <entry file="file://$PROJECT_DIR$/public/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.021276595">
+          <caret line="10" column="60" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/Model.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/Inventario.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/View.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14634146">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/Inventario/inventario.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="37" selection-start-line="0" selection-start-column="37" selection-end-line="0" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.05037037">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/sass/materialize.css">
+    <entry file="file://$PROJECT_DIR$/libs/Session.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.09198813">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+          <folding>
+            <element signature="n#init#0;n#Session#0;n#!!top" expanded="false" />
+            <element signature="n#destroy#0;n#Session#0;n#!!top" expanded="false" />
+            <element signature="n#getValue#0;n#Session#0;n#!!top" expanded="false" />
+            <element signature="n#setValue#0;n#Session#0;n#!!top" expanded="false" />
+            <element signature="n#unsetValue#0;n#Session#0;n#!!top" expanded="false" />
+            <element signature="n#exist#0;n#Session#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/sass/style.css">
+    <entry file="file://$PROJECT_DIR$/libs/Controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/sass/materialize.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.5">
-          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/sass/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.5294118">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/sass/estilo.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.458333">
-          <caret line="73" column="17" selection-start-line="73" selection-start-column="17" selection-end-line="73" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/Proyectos.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3504673">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/materialize.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/menu.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.875">
-          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/sass/Progres-Bar-Circular.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.22700296">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <folding>
+            <element signature="n#__construct#0;n#Controller#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.9583335">
-          <caret line="48" column="54" selection-start-line="48" selection-start-column="54" selection-end-line="48" selection-end-column="54" />
+        <state vertical-scroll-proportion="0.87388724">
+          <caret line="60" column="52" selection-start-line="60" selection-start-column="52" selection-end-line="60" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/head.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8991098">
+          <caret line="62" column="35" selection-start-line="62" selection-start-column="35" selection-end-line="62" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/Index/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4792285">
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/metodos_foot.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/_login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.89857143">
+          <caret line="37" column="25" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/sass/estilo.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/Faqs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25222552">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <element signature="n#__construct#0;n#Faqs#0;n#!!top" expanded="false" />
+            <element signature="n#index#0;n#Faqs#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/menu.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10142857">
+          <caret line="730" column="15" selection-start-line="730" selection-start-column="15" selection-end-line="730" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/estilo.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+        <state vertical-scroll-proportion="0.19428572">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/sass/Progres-Bar-Circular.scss">
+    <entry file="file://$PROJECT_DIR$/models/Usuario_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.625">
-          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.30267063">
+          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+          <folding>
+            <element signature="n#__construct#0;n#Usuario_model#0;n#!!top" expanded="true" />
+            <element signature="n#signUp#0;n#Usuario_model#0;n#!!top" expanded="true" />
+            <element signature="n#SignIn#0;n#Usuario_model#0;n#!!top" expanded="true" />
+            <element signature="n#update#0;n#Usuario_model#0;n#!!top" expanded="true" />
+            <element signature="n#getUser#0;n#Usuario_model#0;n#!!top" expanded="true" />
+            <element signature="n#_callProcedureSelect#0;n#Usuario_model#0;n#!!top" expanded="true" />
+            <element signature="n#_callProcedureIUD#0;n#Usuario_model#0;n#!!top" expanded="true" />
+            <marker date="1446314743644" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..Usuario..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/Index/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32789317">
+          <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/Progres-Bar-Circular.css">
+    <entry file="file://$PROJECT_DIR$/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="280" column="1" selection-start-line="280" selection-start-column="1" selection-end-line="280" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.19428572">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.024285715">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/Proyectos/Alta.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.15133531">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/Proyectos/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.03504673">
-          <caret line="1" column="37" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.17655787">
+          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/Proyectos/Modificaciones.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15133531">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/Proyectos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20178041">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding>
+            <element signature="n#__construct#0;n#Proyectos#0;n#!!top" expanded="false" />
+            <element signature="n#index#0;n#Proyectos#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.025222551">
+          <caret line="1" column="44" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/Usuario/profile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27744806">
+          <caret line="11" column="58" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/Usuario.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37833828">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+          <folding>
+            <element signature="n#__construct#0;n#Usuario#0;n#!!top" expanded="true" />
+            <element signature="n#perfil#0;n#Usuario#0;n#!!top" expanded="true" />
+            <element signature="n#update#0;n#Usuario#0;n#!!top" expanded="true" />
+            <element signature="n#signUp#0;n#Usuario#0;n#!!top" expanded="true" />
+            <element signature="n#signIn#0;n#Usuario#0;n#!!top" expanded="true" />
+            <element signature="n#_callProcedureIUD#0;n#Usuario#0;n#!!top" expanded="true" />
+            <element signature="n#_callProcedureSelect#0;n#Usuario#0;n#!!top" expanded="true" />
+            <element signature="n#createSession#0;n#Usuario#0;n#!!top" expanded="true" />
+            <element signature="n#salir#0;n#Usuario#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/Database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8991098">
+          <caret line="84" column="7" selection-start-line="84" selection-start-column="7" selection-end-line="84" selection-end-column="7" />
+          <folding>
+            <element signature="n#procedure_IUD#0;n#Database#0;n#!!top" expanded="true" />
+            <element signature="n#procedure_S#0;n#Database#0;n#!!top" expanded="true" />
+            <element signature="n#procedure_All#0;n#Database#0;n#!!top" expanded="true" />
+            <element signature="n#Views_All#0;n#Database#0;n#!!top" expanded="true" />
+            <element signature="n#select#0;n#Database#0;n#!!top" expanded="true" />
+            <element signature="n#insert#0;n#Database#0;n#!!top" expanded="true" />
+            <element signature="n#update#0;n#Database#0;n#!!top" expanded="true" />
+            <element signature="n#delete#0;n#Database#0;n#!!top" expanded="true" />
+            <marker date="1446339912391" expanded="true" signature="2570:2584" placeholder="SELECT * FRO..." />
+            <marker date="1446339912391" expanded="true" signature="3013:3027" placeholder="SELECT * FRO..." />
+            <marker date="1446339912391" expanded="true" signature="5138:5194" placeholder="INSERT INTO ..." />
+            <marker date="1446339912391" expanded="true" signature="6371:6409" placeholder="DELETE FROM ..." />
+          </folding>
         </state>
       </provider>
     </entry>

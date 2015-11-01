@@ -60,6 +60,21 @@ class Database extends PDO{
         $sth->execute();
         return $sth->fetchAll($fetchMode);
     }
+
+    /**
+     * @param $ViewName
+     * @param array $array
+     * @param int $fetchMode
+     * @return array
+     */
+    public function Views_All($ViewName, $array=array(), $fetchMode = PDO::FETCH_ASSOC){
+        $sth = $this->prepare("SELECT * FROM $ViewName");
+        foreach ($array as $key => $value){
+            $sth->bindValue("$key", $value);
+        }
+        $sth->execute();
+        return $sth->fetchAll($fetchMode);
+    }
     /**
      * Sólo para selección por niockname
      * @param $ProcedureName Nombre del procedimiento almacenado
