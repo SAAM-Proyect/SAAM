@@ -1,15 +1,3 @@
-
-
-/*Moises Barrera Keb */
-
-    /*Index*/
-    .Estado_Proyecto{
-        background-color: rgba(42,57,47,0.5) !important;
-        border-bottom-left-radius: 50px !important;
-        border-top-left-radius: 50px !important;
-        border-top-right-radius: 10px !important;
-        border-bottom-right-radius: 10px !important;
-        width: 400px !important;
-    }
-    /**/
-/*Fin del CSS de Moises Barrera Keb*/
+    #cssmenu > ul > li:last-child{
+         float: right !important;
+     }

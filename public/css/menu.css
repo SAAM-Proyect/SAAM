@@ -194,7 +194,6 @@
 }
 #cssmenu > ul > li:last-child{
     min-width: 170px !important;
-    float: right;
 }
 
 
@@ -759,7 +758,4 @@ footer{
     padding: 10px;
     margin-left: 50px;
     margin-top: 4px;
-}
-footer{
-    position: fixed;
 }
