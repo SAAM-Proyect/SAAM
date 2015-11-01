@@ -1,12 +1,14 @@
 /*Index*/
-.Estado_Proyecto {
-  background-color: rgba(42, 57, 47, 0.5) !important;
-  border-bottom-left-radius: 50px !important;
-  border-top-left-radius: 50px !important;
-  border-top-right-radius: 10px !important;
-  border-bottom-right-radius: 10px !important;
-  width: 400px !important;
-}
+  /*Estados del proyecto*/
+    .Estado_Proyecto {
+      background-color: rgba(42, 57, 47, 0.5) !important;
+      border-bottom-left-radius: 50px !important;
+      border-top-left-radius: 50px !important;
+      border-top-right-radius: 10px !important;
+      border-bottom-right-radius: 10px !important;
+      width: 400px !important;
+     }
+/*Fin de los estado del proyecto*/
 
 /**/
 .wrap {
@@ -21,8 +23,8 @@
   float: left;
   margin-right: 30px;
   position: relative;
-  width: 105px;
-  height: 105px;
+  width: 85px;
+  height: 85px;
   border-radius: 50%;
   border: 2px solid #2f3439;
   background-color: purple;
@@ -33,14 +35,14 @@
  * ------------------------------------- */
 .progress-radial .overlay {
   position: absolute;
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
   background-color: #fffde8;
   border-radius: 50%;
   margin-left: 20px;
   margin-top: 20px;
   text-align: center;
-  line-height: 60px;
+  line-height: 40px;
   font-size: 16px;
 }
 
