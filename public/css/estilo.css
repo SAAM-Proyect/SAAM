@@ -9,8 +9,9 @@
         border-top-left-radius: 50px !important;
         width: 500px !important;
     }
-#cssmenu > ul > li:last-child{
-     float: right !important;
- }
+    #cssmenu > ul > li:last-child{
+         float: right !important;
+     }
+
     /**/
 /*Fin del CSS de Moises Barrera Keb*/
