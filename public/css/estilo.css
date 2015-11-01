@@ -1,57 +1,13 @@
-@media screen and (min-width: 800px) {
-    #cssmenu > ul > li:nth-last-child(1){right: 0 !important; position: absolute;}
-    .centerdiv{
-        margin-top: 20%;
-    }
-}
-footer{
-    position: fixed !important;
-}
-/*estilos irvvin*/
-.cont{
-    display: inline-flex;
-    border-style: solid;
-    border-color: rgba(128, 0, 128, 0.5);
-    width: 80%;
-    height: 85%;
-    margin-left: 19%;
-    margin-top: 10px;
-    border-radius: 10px;
-    padding: 12px;
-}
-.yolo{
-    display: inline-flex;
-    margin-right: 12px;
-    background-color: rgba(200, 0, 200, .3);
-    height: 100%;
-    width: 200px;
-    border: 12px;
-    border-style: solid;
-    border-color: rgba(128, 0, 128, 0.5);
-    border-top-left-radius: 12px;
-}
-.icon{
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    background-color: rgb(128, 0, 128);
-    margin-top: -13px;
-    margin-left: -13px;
-}
 
-@media (max-width: 800px) {
-    .icon {
-        width: 20px;
-        height: 20px;
-        margin-top: -6px;
-        margin-left: -6px;
+
+/*Moises Barrera Keb */
+
+    /*Index*/
+    .Estado_Proyecto{
+        background-color: #2f3439 !important;
+        border-bottom-left-radius: 50px !important;
+        border-top-left-radius: 50px !important;
+        width: 500px !important;
     }
-    .yolo{
-        border: 6px;
-        background-color: rgba(200, 0, 200, .3);
-        height: 100%;
-        width: 200px;
-        border-style: solid;
-        border-color: rgba(128, 0, 128, 0.5);
-    }
-}
+    /**/
+/*Fin del CSS de Moises Barrera Keb*/
