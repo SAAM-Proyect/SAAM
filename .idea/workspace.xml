@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bcd8676d-c391-4c3a-980b-e4ad2d9399cb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/Faqs.php" afterPath="$PROJECT_DIR$/controllers/Faqs.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/Faqs/Faqs.php" afterPath="$PROJECT_DIR$/views/Faqs/Faqs.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SAAM.iws" />
@@ -38,8 +36,8 @@
       <file leaf-file-name="Faqs.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/Faqs/Faqs.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.061261263">
-              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+            <state vertical-scroll-proportion="0.4900901">
+              <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -522,7 +520,13 @@
       <option name="project" value="LOCAL" />
       <updated>1446340933304</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="hhh">
+      <created>1446343036171</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1446343036171</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView">
@@ -602,7 +606,8 @@
     <MESSAGE value="Cambios login" />
     <MESSAGE value="alskdjasd" />
     <MESSAGE value="xD" />
-    <option name="LAST_COMMIT_MESSAGE" value="xD" />
+    <MESSAGE value="hhh" />
+    <option name="LAST_COMMIT_MESSAGE" value="hhh" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -987,8 +992,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/Faqs/Faqs.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.061261263">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.4900901">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
           <folding />
         </state>
       </provider>
