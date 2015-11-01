@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+<?php require('views/header.php'); ?>
+
 <html>
 <head>
     <title>FAQS</title>
