@@ -31,6 +31,7 @@
 }
 body{
 	background: #FEFEFE;
+	overflow: hidden;
 }
 .sidebar a{
 	display: block;

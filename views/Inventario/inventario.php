@@ -1,13 +1,4 @@
 <?php require('views/header.php'); ?>
-<html>
-<head>
-    <title></title>
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <link href="<?php echo URL; ?>public/css/styleInventario.css" rel="stylesheet" type="text/css"/>
-    <link rel="stylesheet" type="text/css" href="<?php echo URL;?>public/css/fontsInventarios.css">
-    <script type="text/javascript" src="<?php echo URL; ?>public/js/jquery.min.js"></script>
-</head>
-<body>
 <!- Obterner informacion de hijos de un div-->
 <div class="global">
     <div class="sidebar">
@@ -15,7 +6,7 @@
         <ul>
             <li><a href="#"><span class="icon-user"></span>Clientes</a></li>
             <li><a href="#"><span class="icon-user-tie"></span>Proveedores</a></li>
-            <li class="submenu elemento"><a href="#" onclick="window.location herf = '<?php echo URL;?>Inventario/inventario'"><span class="icon-stats-bars"></span><span>Productos</span></a>
+            <li class="submenu elemento"><a href="#" onclick=""><span class="icon-stats-bars"></span><span>Productos</span></a>
             </li>
             <li><a href="#"><span class="icon-coin-dollar"></span>Ventas</a></li>
         </ul>
@@ -54,12 +45,11 @@
                         </form>
                     </tr>
                     <?php
-
+                        echo "<script> alert(".count($this->getProducts).") </script>";
                         for($i = 0; $i<count($this->getProducts);$i++){
                             $varia = "";
-                            foreach($this->getProducts as $key => $valor){
-                                $varia .= "<td>".$valor."</td>";
-
+                            foreach($this->getProducts[$i] as $key => $valor){
+                                $varia .= (string)("<td>".$valor."</td>");
                             }
                             echo "<tr>".$varia."</tr>";
                         }
@@ -86,7 +76,6 @@
     </section>
 </div>
 
-</body>
 <script type="text/javascript">
         $(document).ready(function(){
             $('.bt-menu').click(function(){
@@ -105,4 +94,4 @@
     });
 </script>
 
-</html>
+<?php require("views/footer.php"); ?>

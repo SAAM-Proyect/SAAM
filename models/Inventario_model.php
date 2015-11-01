@@ -7,6 +7,6 @@
             return $this->db->procedure_S("Select_Producto",$data);
         }
         function _getProducts(){
-            return $this->db->view;
+            return $this->db->Views_All("Select_Productos");
         }
     }

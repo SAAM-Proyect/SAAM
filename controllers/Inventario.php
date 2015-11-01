@@ -10,11 +10,7 @@
                 header("Location: ".URL);
             }
         }
-        function _getProducts(){
-            if(Session::exist()){
 
-            }
-        }
         function inventario(){
             if(Session::exist()){
                 $this->view->getProducts = $this->model->_getProducts();
