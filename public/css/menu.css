@@ -194,6 +194,7 @@
 }
 #cssmenu > ul > li:last-child{
     min-width: 170px !important;
+    float: right;
 }
 
 
