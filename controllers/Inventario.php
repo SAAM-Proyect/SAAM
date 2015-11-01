@@ -10,11 +10,21 @@
                 header("Location: ".URL);
             }
         }
-        function _getProduct(){
-            $data["codProducto"] = $_POST["codProducto"];
-            return $this->model->_getProduct($data);
+        function _getProducts(){
+            if(Session::exist()){
+
+            }
         }
         function inventario(){
-            $this->view->render($this, 'inventario');
+            if(Session::exist()){
+                $this->view->getProducts = $this->model->_getProducts();
+                if(isset($_GET["codProducto"])){
+                    $data["codProducto"] = $_GET["codProducto"];
+                    $this->view->Producto = $this->model->_getProduct($data)[0];
+                }
+                $this->view->render($this, 'inventario');
+            }else{
+                header("Location: ".URL);
+            }
         }
     }

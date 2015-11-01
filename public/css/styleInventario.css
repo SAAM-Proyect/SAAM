@@ -16,6 +16,14 @@
 	color: #fff;
 	outline: 1px solid #2a2a2a;
 }
+.tablaInventario{
+	width: 40%;
+	height: 40%;
+	margin-left: 200px;
+	position: relative;
+	float: left;
+	transition: all 0.3s;
+}
 .sidebar ul{
 	list-style: none;
 	padding: 0;
@@ -53,13 +61,7 @@ body{
 
 
 }
-.tablaInventario{
-	width: 40%;
-	height: 40%;
-	margin-left: 200px;
-	position: relative;
-	transition: all 0.3s;
-}
+
 .abrir{
 	transform: translateX(250px);
 	transition:  0.3s;
