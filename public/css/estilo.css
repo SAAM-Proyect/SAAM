@@ -1,13 +1,75 @@
-
-
-/*Moises Barrera Keb */
-
-    /*Index*/
-    .Estado_Proyecto{
-        background-color: #2f3439 !important;
-        border-bottom-left-radius: 50px !important;
-        border-top-left-radius: 50px !important;
-        width: 500px !important;
+@media screen and (min-width: 800px) {
+    #cssmenu > ul > li:nth-last-child(1){right: 0 !important; position: absolute;}
+    .centerdiv{
+        margin-top: 20%;
     }
-    /**/
-/*Fin del CSS de Moises Barrera Keb*/
+}
+footer{
+    position: fixed !important;
+}
+/*estilos irvvin*/
+.cont{
+    display: inline-flex;
+    border-style: solid;
+    border-color: rgba(128, 0, 128, 0.5);
+    width: 80%;
+    height: 85%;
+    margin-left: 19%;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 12px;
+}
+.yolo{
+    display: inline-flex;
+    margin-right: 12px;
+    background-color: rgba(200, 0, 200, 0.3);
+    height: 100%;
+    width: 200px;
+    border: 12px solid rgb(180, 100, 180);
+    border-top-left-radius: 20px;
+}
+.icon{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-top: -13px;
+    margin-left: -13px;
+    text-align: center;
+        background-color: rgb(180, 100, 180);
+}
+.imag{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 9px;
+    background-color: #f2f2f2;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+@media (max-width: 850px) {
+    .yolo{
+        margin-right: 12px;
+        background-color: rgba(200, 0, 200, 0.3);
+        height: 100%;
+        width: 200px;
+        border: 6px solid rgb(180, 100, 180);
+    }
+    .icon {
+        border-radius: 50%;
+        width: 25px;
+        height: 25px;
+        background-color: rgb(180, 100, 180);
+        margin-top: -6px;
+        margin-left: -6px;
+        text-align: center;
+    }
+    .imag{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 9px;
+        background-color: #f2f2f2;
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+    }
+}

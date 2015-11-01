@@ -17,7 +17,7 @@ require('views/header.php'); ?>
         document.write("<div class='yolo'>")
             document.write("<div class='icon'>")
                 document.write("<div class='imag'>")
-                document.write("</div>");
+                document.write("</div>")
             document.write("</div>")
         document.write("</div>")
     }
