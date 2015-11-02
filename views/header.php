@@ -22,9 +22,7 @@
     <script src="<?php echo URL; ?>public/js/materialize/js/bin/materialize.min.js" defer></script>
     <script async="true" src="<?php echo URL; ?>public/js/script.js" type="text/javascript"></script>
     <script async="true" src="<?php echo URL; ?>public/js/_login.js" type="text/javascript"></script>
-    <script async="true" src="<?php echo URL; ?>public/js/faqs.js" type="text/javascript"></script>
     <link  href="<?php echo URL; ?>public/css/menu.css" rel="stylesheet"/>
-    <link  href="<?php echo URL; ?>public/css/Faqs.css" rel="stylesheet"/>
     <script>
         $(function(){
             $('#id').addClass('hover').removeClass('normal').fadeIn("slow");
