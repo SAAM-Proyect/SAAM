@@ -10,6 +10,11 @@ class tareas extends Controller{
         parent::__construct();
     }
     function index(){
-        $this->view->render($this,'index');
+        if (Session::exist()){
+            $this->view->render($this,'index');
+        }
+        else{
+            header("Location: ".URL);
+        }
     }
 }
