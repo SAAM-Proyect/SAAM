@@ -1,4 +1,5 @@
 <?php require('views/header.php'); ?>
+
 <div class="formWrapper">
     <?php echo Session::getValue('U_NAME'); ?>
     <button id="closeSessionBtn">Cerrar Session</button>
@@ -10,10 +11,10 @@
 
         $('#id').addClass('hover').removeClass('normal').fadeIn("slow");
         $('#closeSessionBtn').click(function(){
-            document.location = "<?php echo URL; ?>User/destroySession";
+            document.location = "<?php echo URL; ?>Usuario/salir";
         });
         $('#buttonProfile').click(function(){
-            document.location = "<?php echo URL; ?>User/profile";
+            document.location = "<?php echo URL; ?>Usuario/perfil";
         });
     });
 </script>  

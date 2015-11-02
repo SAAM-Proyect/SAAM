@@ -6,6 +6,6 @@ class Faqs extends Controller
         parent::__construct();
     }
     function index(){
-        $this->view->render($this,'index');
-    }
+        $this->view->render($this,'Faqs');
+}
 }
