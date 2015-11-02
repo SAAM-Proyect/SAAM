@@ -59,7 +59,7 @@
             </span>
             <span class="perfil">
                 <img class="I_D_F_E" src="<?php echo URL;?>public/img/Coordinador_Proyecto.jpg">
-                <p class="I_D_N_E">Empleado 2</p>
+                <p class="I_D_N_E">Empleadmv mksdfvksejiofo 2</p>
             </span>
         </div>
     </div>
