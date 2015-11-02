@@ -24,7 +24,7 @@
     </div>
 
 
-    <div class="sidebar_Detalles ">
+    <div class="sidebar_Detalles">
         <!--Nombre Empresa-->
         <h5 class="Centrar_P">Nombre de la empresa</h5>
 
@@ -64,10 +64,18 @@
         </div>
     </div>
     <script type="text/javascript">
+        var xmoi = 0;
         $(document).ready(function(){
             $('.A_Detalles').click(function(e){
                 e.preventDefault();
-                $('.sidebar_Detalles').animate({"margin-right": 0+'px !important'},3500,'easeInOutQuad');
+                //alert("HOLA");
+                if(xmoi==0){
+                    $('.sidebar_Detalles').animate({"right": 0+'px'},500,'easeInOutQuad');
+                    xmoi++;
+                }else{
+                    $('.sidebar_Detalles').animate({"right": -300+'px'},500,'easeInOutQuad');
+                    xmoi=0;
+                }
             });
         });
     </script    >
