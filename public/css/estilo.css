@@ -1,3 +1,6 @@
-    #cssmenu > ul > li:last-child{
-         float: right !important;
-     }
+#cssmenu > ul > li:last-child{
+    float: right !important;
+}
+footer{
+    padding: 10px !important;
+}
