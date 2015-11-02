@@ -9,9 +9,14 @@
     <div>   <input type="text" name="Asunto" placeholder="Asunto"/> </div>  </br>
     <div>
         </br>
-        <input type="text" name="Pregunta" placeholder="Comentario" />
+        <textarea type="text" name="Pregunta" placeholder="Comentario" ></textarea>
     </div>
     <input type="submit" name="Enviar" value="Comentar"/>
 </form>
 </body>
 </html>
+
+
+
+
+

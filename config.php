@@ -10,6 +10,3 @@
 
     define('ALGO', 'sha512');
     define('HASH_KEY', 'supermaneselmejor@');
-
-
-
