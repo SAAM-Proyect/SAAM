@@ -2,13 +2,6 @@
     $(function(){
         $(".button-collapse").sideNav();
     });
-    function load() {
-//            loadStyleSheet("style.css");
-//            loadStyleSheet("materialize.css");
-//            loadScript("public/js/materialize/js/bin/materialize.min.js");
-//            loadStyleSheet("https://fonts.googleapis.com/icon?family=Material+Icons");
-    }
-    window.onload = load;
 </script>
 <footer>
     <ul>
