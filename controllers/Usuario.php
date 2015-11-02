@@ -8,7 +8,7 @@
                 $data["id"]=Session::getValue("ID");
                 $this->view->userData = $this->model->getUser($data)[0];
                 //print_r(userData);
-                $this->view->render($this,'profile');
+                $this->view->render($this,'perfil');
             }  else {
                 header("Location: ".URL);
             }

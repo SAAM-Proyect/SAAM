@@ -1,12 +1,17 @@
 <?php require('views/header.php'); ?>
 <?php echo $this->userData['password'] = ""; ?>
+<div id="backPerfil">
+    <img src="<?php echo URL; ?>public/img/profile.jpg" draggable="false" />
+    <div class="">Hola2</div>
+    <div class="infoProfile">Hola</div>
+</div>
+<div class="separatorProfile"></div>
 <div class="formWrapper">
-
     <?php
-    $tipo = "Usuario normal";
-    if($this->userData['tipo']==1){
-        $tipo = "Administrador";
-    }
+        $tipo = "Usuario normal";
+        if($this->userData['tipo']==1){
+            $tipo = "Administrador";
+        }
     ?>
     <form name="profileForm" class="fancyForm" style="margin-top: 50px;">
         <input type="text" name="name" value="<?php echo $this->userData['Nombre']; ?>" placeholder="Nombre">
@@ -18,11 +23,10 @@
     <?php  //echo count($this->userData); ?>
     </form>
 </div>
-
 <script>
     $(function(){
        $('#buttonBack').click(function(){
-          document.location = "<?php echo URL; ?>"; 
+          document.location = "<?php echo URL; ?>";
        });
        $('#buttonProyects').click(function(e){
            e.preventDefault();
@@ -50,14 +54,14 @@
                 if(response == true){
                     //alert("Actualización Exitoso!");
                     //document.location= "<?php echo URL; ?>";
-                    //document.location = "<?php echo URL; ?>User/destroySession"; 
+                    //document.location = "<?php echo URL; ?>User/destroySession";
                 }else{
                     alert(response);
                 }
             });
         }
         else
-        { 
+        {
             alert("Llene el campo de la contraseña");
         }
     }
@@ -65,9 +69,7 @@
         var response = confirm("¿Seguro que quiere darse de baja? User id: "+id);
         if(response){
             alert("Es una lástima que usted se haya salido de nuestra aplicación");
-        }else{
-
         }
     }
 </script>
-<?php require('views/footer.php'); ?> 
+<?php require('views/footer.php'); ?>

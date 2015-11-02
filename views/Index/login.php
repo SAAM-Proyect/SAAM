@@ -1,5 +1,6 @@
 <?php require 'views/head.php';?>
     <div class="contenedor">
+
         <div class="area1">
             <!--div class="sliderChild">
                 <ul class="bxslider">
@@ -9,9 +10,39 @@
                     <li><img src="<?php echo URL; ?>public/img/slider/4.jpg" /></li
                 </ul>
             </div-->
+            <script type="text/javascript">
+                var posImg = 0;
+                var total = 0;
+                $(document).ready(function(){
+                    posImg = 1;
+                    total = $("#SliderPrincipal").children().length;
+                    $(".parte2_slider"+posImg).css({"position":"absolute", "display":"block", "max-width":"700px"}).delay(100).animate({"margin-left": 0+'px'},1600,'easeInQuad');
+                    $(".parte2_slider"+posImg).delay(4500).animate({"margin-left": -1500+'px'},1300,'easeOutQuad');
+                    posImg++;
+                });
+                window.setInterval(function slider(){
+                    if(posImg > total){ posImg = 1; }
+                    if(posImg < 1){ posImg = total; }
+                    $(".parte2_slider"+posImg).css({"position":"absolute", "display":"block", "max-width":"700px"}).delay(100).animate({"margin-left": 0+'px'},1600,'easeInQuad');
+                    $(".parte2_slider"+posImg).delay(4500).animate({"margin-left": -1500+'px'},1300,'easeOutQuad');
+                    posImg= posImg+1
+                },5200);
+            </script>
             <div id="SliderPrincipal">
-                <div class="parte2_slider">
+                <div class="parte2_slider1 oculto">
                     <p class="titulo_Slider">Nuestos productos</p>
+                    <p class="subtitulo_Slider">Nadie quiere una vida complicada. Con los diferentes productos de SAAM, tendrás todas las herramientas que necesitas para lograr tus metas profesionales de la forma más fácil.</p>
+                    <p>Olvídate de las cantidades interminables de papeleo y correo electrónico. SAMM ofrece un sistema efectivo de proyectos y tareas para organizar tu empresa en un solo lugar.</p>
+                    <img id="tv" src="public/img/ss6_03.png">
+                </div>
+                <div class="parte2_slider2 oculto">
+                    <p class="titulo_Slider">Nuestos servicios</p>
+                    <p class="subtitulo_Slider">Nadie quiere una vida complicada. Con los diferentes productos de SAAM, tendrás todas las herramientas que necesitas para lograr tus metas profesionales de la forma más fácil.</p>
+                    <p>Olvídate de las cantidades interminables de papeleo y correo electrónico. SAMM ofrece un sistema efectivo de proyectos y tareas para organizar tu empresa en un solo lugar.</p>
+                    <img id="tv" src="public/img/ss6_03.png">
+                </div>
+                <div class="parte2_slider3 oculto">
+                    <p class="titulo_Slider">Nuestos clientes</p>
                     <p class="subtitulo_Slider">Nadie quiere una vida complicada. Con los diferentes productos de SAAM, tendrás todas las herramientas que necesitas para lograr tus metas profesionales de la forma más fácil.</p>
                     <p>Olvídate de las cantidades interminables de papeleo y correo electrónico. SAMM ofrece un sistema efectivo de proyectos y tareas para organizar tu empresa en un solo lugar.</p>
                     <img id="tv" src="public/img/ss6_03.png">
