@@ -7,10 +7,6 @@
  */
 require('views/header.php'); ?>
 
-<html>
-<head>
-</head>
-<body>
 <script type="text/javascript">
     var posiciones = 4;
     var nombre_Pos= 'irvin_pro';
@@ -30,11 +26,5 @@ require('views/header.php'); ?>
     }
     document.write("</div>")
 </script>
-</body>
-</html>
-
-
-
-
 
 <?php require('views/footer.php'); ?>
