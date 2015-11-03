@@ -23,7 +23,6 @@
     <script async="true" src="<?php echo URL; ?>public/js/script.js" type="text/javascript"></script>
     <script async="true" src="<?php echo URL; ?>public/js/_login.js" type="text/javascript"></script>
     <link  href="<?php echo URL; ?>public/css/menu.css" rel="stylesheet"/>
-    <link  href="<?php echo URL; ?>public/css/tareasestilos.css" rel="stylesheet"/>
     <script>
         $(function(){
             $('#id').addClass('hover').removeClass('normal').fadeIn("slow");
@@ -50,7 +49,7 @@
         })(jQuery);
     </script>
     <script type="text/javascript" src="<?php echo URL; ?>public/js/script.js"></script>
-    <link  href="<?php echo URL; ?>public/css/estilosMoises.css" rel="stylesheet"/>
+    <link  href="<?php echo URL; ?>public/css/Progres-Bar-Circular.css" rel="stylesheet"/>
     <link  href="<?php echo URL; ?>public/css/estilo.css" rel="stylesheet"/>
 </head>
 <body>
@@ -59,8 +58,6 @@
         <li class="active"><a href="<?php echo URL; ?>"><img src="<?php echo URL; ?>public/img/favicon.png"><span class="titulo">SAAM</span></a></li>
         <li><a href='#'><span>Clientes</span></a></li>
         <li><a href='#'><span>Archivos</span></a></li>
-        <li><a href='<?php echo URL."Tareas"; ?>'><span>Tareas</span></a></li>
-        <li><a href='<?php echo URL."Proyectos"; ?>'><span>Proyectos</span></a></li>
         <li class="has-sub"><a href=''><span><?php echo ucfirst(Session::getValue('U_NAME')); ?></span></a>
             <ul>
                 <li><a href="<?php echo URL."Usuario/perfil"; ?>">Ver perfil</a></li>
