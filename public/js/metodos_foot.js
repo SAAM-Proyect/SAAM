@@ -2,7 +2,7 @@
  * Created by Horacio on 08/10/2015.
  */
 //Tenemos que cambiar las urls
-var urlx="http://localhost/SAAM/";
+var urlx="http://www.saam.mx/";
 
 function signUp(){
     var name = $('form[name=signUp] input[name=name]')[0].value;
