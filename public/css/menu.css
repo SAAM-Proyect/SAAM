@@ -194,7 +194,6 @@
 }
 #cssmenu > ul > li:last-child{
     min-width: 170px !important;
-    float: right;
 }
 
 
@@ -454,7 +453,7 @@
 
 
 .principalback{
-    background: #34495e url("#{$rutaimg}/#{$imgPFondo}");
+    /*background: #34495e url("#{$rutaimg}/#{$imgPFondo}");*/
     /*background-repeat: repeat;
     background-position: 0 0;
     background-size: cover;
@@ -760,6 +759,48 @@ footer{
     margin-left: 50px;
     margin-top: 4px;
 }
+.oculto{
+    margin-left: -1500px;
+}
+#backPerfil{
+    width: 100%;
+    height: 240px;
+    background: url("../../public/img/detroit_header1.jpg") no-repeat center center     ;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+#backPerfil img{
+
+    width: 180px;
+    height: 180px;
+    border: 4px solid purple;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 140px;
+    z-index: 1;
+    margin-left: 70px;
+}
+.separatorProfile{
+    width: 100%;
+    height: 20px;
+    background: rgba(128,0,128,1);
+}
+.infoProfile{
+    padding: 10px;
+    position: absolute;
+    padding-left: 300px;
+    color: white;
+    margin-top: 200px;
+    width: 100%;
+    height: 40px;
+    background: rgba(0,0,0,0.4);
+}
 footer{
     position: fixed;
 }
+.formWrapper{
+    margin-bottom: 100px !important;
+}
+.hola{}

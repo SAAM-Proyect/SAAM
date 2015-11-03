@@ -36,7 +36,6 @@ class Database extends PDO{
      */
     public function procedure_S($ProcedureName, $data, $array=array(), $fetchMode = PDO::FETCH_ASSOC)
     {
-        ksort($data);
         $fieldValues = "'" . implode("', '", array_values($data)) . "'";
         //echo print_r($fieldValues);
         $sth = $this->prepare("CALL  $ProcedureName($fieldValues)");

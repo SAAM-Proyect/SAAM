@@ -1,10 +1,74 @@
 
+    /*Index*/
+      .Estado_Proyecto{
+         background-color: rgba(42,57,47,0.5) !important;
+         border-bottom-left-radius: 50px !important;
+         border-top-left-radius: 50px !important;
+         border-top-right-radius: 10px !important;
+         border-bottom-right-radius: 10px !important;
+         width: 280px !important;
+      }
+      .Conten-proyectos{
+        padding: 20px;
+      }
+      .linea{
+        display: inline;
+      }
 
-     .wrap {
+      .sidebar_Detalles{
+          position: fixed;
+          background-color: gray;
+          top: 50px;
+          right: -300px;
+          display: block;
+          width:  300px;
+          height: 92%;
+          color: #fff;
+          padding: 10px;
+          padding-top: 20px;
+      }
+
+      .Select_Tipos_Proyecto{
+        display: inline;
+        width: 100px;
+      }
+
+      .Centrar_P{
+        text-align: center;
+      }
+      .Justificar_P{
+        text-align: justify;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+
+
+      /*Index-Detalle-Foto-Empleado*/
+      .I_D_F_E{
+        border: 1px solid black;
+        border-radius: 50%;
+        align: center;
+        width: 50px;
+        height: 50px;
+      }
+
+      /*Index-Detalle-Foto-Empleado*/
+      .I_D_N_E{
+        font-size: 12px;
+      }
+
+      .ocultar_D{
+       visibility: hidden;
+      }
+
+      .wrap {
        width: 600px;
        margin:0 auto;
      }
 
+      .A_Detalles{
+
+      }
      // Colors
       $barColor: purple;
       $overlayColor: #fffde8;
@@ -17,8 +81,8 @@
          float: left;
          margin-right: 30px;
          position: relative;
-         width: 105px;
-         height: 105px;
+         width: 85px;
+         height: 85px;
          border-radius: 50%;
          border: 2px solid $backColor; // remove gradient color
          background-color: $barColor; // default 100%
@@ -28,14 +92,14 @@
  * ------------------------------------- */
         .progress-radial .overlay {
             position: absolute;
-            width: 60px;
-            height: 60px;
+            width: 40px;
+            height: 40px;
             background-color:$overlayColor;
             border-radius:50%;
             margin-left: 20px;
             margin-top: 20px;
             text-align:center;
-            line-height: 60px;
+            line-height: 40px;
             font-size: 16px;
         }
 
@@ -60,3 +124,4 @@ $half: round($loops / 2);
   }
 }
 }
+
