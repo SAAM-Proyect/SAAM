@@ -6,29 +6,31 @@
          border-top-left-radius: 50px !important;
          border-top-right-radius: 10px !important;
          border-bottom-right-radius: 10px !important;
-         width: 400px !important;
+         width: 280px !important;
       }
       .Conten-proyectos{
         padding: 20px;
       }
       .linea{
-        display: inline-block;
+        display: inline;
       }
 
       .sidebar_Detalles{
           position: fixed;
           background-color: gray;
           top: 50px;
-          right: -300px !important;
+          right: -300px;
           display: block;
           width:  300px;
           height: 92%;
           color: #fff;
-          padding-top: 30px;
+          padding: 10px;
+          padding-top: 20px;
       }
 
       .Select_Tipos_Proyecto{
-        display: flex;
+        display: inline;
+        width: 100px;
       }
 
       .Centrar_P{
@@ -45,6 +47,7 @@
       .I_D_F_E{
         border: 1px solid black;
         border-radius: 50%;
+        align: center;
         width: 50px;
         height: 50px;
       }

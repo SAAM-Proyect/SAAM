@@ -10,4 +10,11 @@ class Proyectos extends Controller{
             header("Location: ".URL);
         }
     }
+    function alta(){
+        if(Session::exist()){
+            $this->view->render($this,'alta');
+        }else{
+            header("Location: ".URL);
+        }
+    }
 }
