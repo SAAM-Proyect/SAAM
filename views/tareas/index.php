@@ -12,8 +12,9 @@ require('views/header.php'); ?>
 </head>
 <body>
 <script type="text/javascript">
-    var posiciones = 6;
-    document.write("<div class='inicial'><div class='titulo'>oansdoandko</div></div>")
+    var posiciones = 4;
+    var nombre_Pos= 'irvin_pro';
+    document.write("<div class='inicial'><div class='text'>Tareas</div></div>")
     document.write("<div class='cont'>")
     for (var i=1;i<=posiciones;i++){
         document.write("<div class='posicion'>")
@@ -21,6 +22,7 @@ require('views/header.php'); ?>
                 document.write("<div class='imag'>")
                 document.write("</div>")
             document.write("</div>")
+        document.write("<div class='textpos'>" + nombre_Pos + "</div>")
         document.write("</div>")
         if (i == posiciones){
             document.write("<div class='relleno'></div>")
