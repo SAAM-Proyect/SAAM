@@ -6,10 +6,12 @@ class Faqs extends Controller
     }
     function Faqs(){
         $this->view->Datos_Faqs = $this->model->all_faqs();
+
         $this->view->render($this,'Faqs');
     }
     function todo(){
         $this->view->Datos_Faqs = $this->model->all_faqs();
+
         $this->view->render($this,'todo');
     }
     function insertar(){
@@ -21,7 +23,6 @@ class Faqs extends Controller
         $data["Id_Usuario"]=1;
         $this->procedure->Crear_Faqs = $this->model->Crear_Faq($data);
 
-        //echo print_r($this->procedure->Crear_Faqs);
         if($this->procedure->Crear_Faqs[0]['RESULT']=='OK'){
             echo  'OK';
         }
