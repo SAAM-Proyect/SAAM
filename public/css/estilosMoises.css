@@ -5,7 +5,7 @@
   border-top-left-radius: 50px !important;
   border-top-right-radius: 10px !important;
   border-bottom-right-radius: 10px !important;
-  width: 400px !important;
+  width: 280px !important;
 }
 
 .Conten-proyectos {
@@ -13,7 +13,7 @@
 }
 
 .linea {
-  display: inline-block;
+  display: inline;
 }
 
 .sidebar_Detalles {
@@ -30,7 +30,8 @@
 }
 
 .Select_Tipos_Proyecto {
-  display: flex;
+  display: inline;
+  width: 100px;
 }
 
 .Centrar_P {
@@ -47,6 +48,7 @@
 .I_D_F_E {
   border: 1px solid black;
   border-radius: 50%;
+  align: center;
   width: 50px;
   height: 50px;
 }

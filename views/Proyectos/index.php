@@ -3,7 +3,7 @@
     <!--Contenido General del proyecto-->
     <div class="Conten-proyectos">
         <form >
-            <span>Tipo de busqueda</span>
+            <span >Tipo de busqueda</span>
             <select class="Select_Tipos_Proyecto">
                 <option value="Activo">Activos</option>
                 <option value="Cancelados">Cancelados</option>
@@ -13,7 +13,23 @@
         </form>
 
 
-         <div class="card Estado_Proyecto A_Detalles">
+        <div class="card Estado_Proyecto A_Detalles">
+            <div class="progress-radial progress-65">
+                <div class="overlay">65%</div>
+            </div>
+            <div class="card-title" style="font-size: 20px !important;">Titulo Proyecto</div>
+            <div >hola mundo</div>
+            <div >hola mundo</div>
+        </div>
+        <div class="card Estado_Proyecto A_Detalles">
+            <div class="progress-radial progress-65">
+                <div class="overlay">65%</div>
+            </div>
+            <div class="card-title" style="font-size: 20px !important;">Titulo Proyecto</div>
+            <div >hola mundo</div>
+            <div >hola mundo</div>
+        </div>
+        <div class="card Estado_Proyecto A_Detalles">
             <div class="progress-radial progress-65">
                 <div class="overlay">65%</div>
             </div>
@@ -52,14 +68,14 @@
         </div>
 
         <!--Empleados-->
-        <div class="justificar_p">
-            <span class="perfil">
-                <img class="I_D_F_E" src="<?php echo URL;?>public/img/Coordinador_Proyecto.jpg">
+        <div class="linea">
+            <span class="perfil linea">
+                <img class="I_D_F_E" src="<?php echo URL;?>public/img/Empleado_X.jpeg">
                 <p class="I_D_N_E">Empleado 1</p>
             </span>
-            <span class="perfil">
-                <img class="I_D_F_E" src="<?php echo URL;?>public/img/Coordinador_Proyecto.jpg">
-                <p class="I_D_N_E">Empleadmv mksdfvksejiofo 2</p>
+            <span class="perfil linea" >
+                <img class="I_D_F_E" src="<?php echo URL;?>public/img/Empleado_X.jpeg">
+                <p class="I_D_N_E">Empleado 2</p>
             </span>
         </div>
     </div>
