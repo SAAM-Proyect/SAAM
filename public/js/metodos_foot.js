@@ -3,7 +3,6 @@
  */
 //Tenemos que cambiar las urls
 var urlx="http://localhost/saam/";
-
 function signUp(){
     var name = $('form[name=signUp] input[name=name]')[0].value;
     var username = $('form[name=signUp] input[name=username]')[0].value;
