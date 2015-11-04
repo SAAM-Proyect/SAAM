@@ -16,6 +16,11 @@
 	color: #fff;
 	outline: 1px solid #2a2a2a;
 }
+
+#icon-sidebar a {
+
+	background-color: #7e57c2;
+}
 .tablaInventario{
 	width: 40%;
 	height: 40%;
@@ -59,7 +64,7 @@ body{
 .global{
 
 	width: 100%;
-
+	z-index: 8000;
 
 }
 
