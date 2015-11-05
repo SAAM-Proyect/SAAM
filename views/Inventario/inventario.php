@@ -15,6 +15,7 @@
     <div id = "icon-sidebar" class="contenido" >
         <a href="#" class="bt-menu"><span class = "icon-menu"></span></a>
     </div>
+
     <div class="tablaInventario ocultar" >
         <article>
             <div id="myContent">

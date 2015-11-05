@@ -12,10 +12,10 @@ $thead = "<thead class='Proveedores' id ='Element'>
                     </tr>
                     </thead>";
 echo $thead;
-for($i = 0; $i<count($this->Proveedores);$i++){
+for($i = 0; $i<count($this->getProveedores);$i++){
     $varia = "";
 
-    foreach($this->Proveedores[$i] as $key => $valor){
+    foreach($this->getProveedores[$i] as $key => $valor){
         $varia .= (string)("<td style='text-align: right;'>".$valor."</td>");
     }
 

@@ -5,9 +5,18 @@
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
-.sidebar p{
-	text-align:  center;
+body{
+	background: #FEFEFE;
+	overflow-x: hidden;
 }
+.global{
+
+	width: 100%;
+	z-index: 8000;
+
+}
+
+/* Elemento del sidebar*/
 .sidebar{
 	position: absolute;
 	width: 20%;
@@ -17,10 +26,15 @@
 	outline: 1px solid #2a2a2a;
 }
 
+.sidebar p{
+	text-align:  center;
+}
+
 #icon-sidebar a {
 
 	background-color: #7e57c2;
 }
+/* */
 .tablaInventario{
 	width: 40%;
 	height: 40%;
@@ -34,10 +48,7 @@
 	padding: 0;
 	margin: 0;
 }
-body{
-	background: #FEFEFE;
-	overflow-x: hidden;
-}
+
 .sidebar a{
 	display: block;
 	padding: 10px;
@@ -51,7 +62,7 @@ body{
 }
 .sidebar li:hover{
 	background: #444;
-	border-left: 5px solid #eee;
+	border-left: 5px solid #8e24aa;
 }
 .contenido{
 	width: 100%;
@@ -60,12 +71,6 @@ body{
 	background: #eee;
 	padding: 15px;
 	transition: all 0.3s;
-}
-.global{
-
-	width: 100%;
-	z-index: 8000;
-
 }
 
 .abrir{
