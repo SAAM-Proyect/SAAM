@@ -7,10 +7,13 @@
          border-top-right-radius: 10px !important;
          border-bottom-right-radius: 10px !important;
          width: 280px !important;
+        display: inline-table;
       }
+
       .Conten-proyectos{
         padding: 20px;
       }
+
       .linea{
         display: inline;
       }
@@ -42,7 +45,11 @@
         padding-right: 20px;
       }
 
-
+      .perfil{
+        display: inline-table;
+        width: 100px;
+        text-align: center;
+      }
       /*Index-Detalle-Foto-Empleado*/
       .I_D_F_E{
         border: 1px solid black;
