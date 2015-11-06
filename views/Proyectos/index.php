@@ -22,16 +22,8 @@
             <div >hola mundo</div>
         </div>
         <div class="card Estado_Proyecto A_Detalles">
-            <div class="progress-radial progress-65">
-                <div class="overlay">65%</div>
-            </div>
-            <div class="card-title" style="font-size: 20px !important;">Titulo Proyecto</div>
-            <div >hola mundo</div>
-            <div >hola mundo</div>
-        </div>
-        <div class="card Estado_Proyecto A_Detalles">
-            <div class="progress-radial progress-65">
-                <div class="overlay">65%</div>
+            <div class="progress-radial progress-34">
+                <div class="overlay">34%</div>
             </div>
             <div class="card-title" style="font-size: 20px !important;">Titulo Proyecto</div>
             <div >hola mundo</div>
@@ -68,14 +60,22 @@
         </div>
 
         <!--Empleados-->
-        <div class="linea">
-            <span class="perfil linea">
+        <div class="Centrar_P" style="margin-top: 30px;">
+            <span class="perfil">
                 <img class="I_D_F_E" src="<?php echo URL;?>public/img/Empleado_X.jpeg">
                 <p class="I_D_N_E">Empleado 1</p>
             </span>
-            <span class="perfil linea" >
+            <span class="perfil">
                 <img class="I_D_F_E" src="<?php echo URL;?>public/img/Empleado_X.jpeg">
                 <p class="I_D_N_E">Empleado 2</p>
+            </span>
+            <span class="perfil">
+                <img class="I_D_F_E" src="<?php echo URL;?>public/img/Empleado_X.jpeg">
+                <p class="I_D_N_E">Empleado 3</p>
+            </span>
+            <span class="perfil" >
+                <img class="I_D_F_E" src="<?php echo URL;?>public/img/Empleado_X.jpeg">
+                <p class="I_D_N_E">Empleado 4</p>
             </span>
         </div>
     </div>
