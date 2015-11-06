@@ -6,14 +6,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="msapplication-tap-highlight" content="no">
+
         <title>SAAM</title>
+
+        <!-- Adjuntamos los CSS -->
         <link rel="icon" type="image/png" href="<?php echo URL; ?>public/img/favicon.png"/>
-        <!-- Compiled and minified CSS -->
-        <!--link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css"/-->
         <link href="<?php echo URL; ?>public/css/materialize.css" rel="stylesheet" type="text/css"/>
-        <link lazyload href="<?php echo URL; ?>public/css/style.css" rel="stylesheet"/>
-        <link lazyload href="<?php echo URL; ?>public/css/jquery.bxslider.css" rel="stylesheet" />
-        <!-- Compiled and minified JavaScript -->
+        <link  href="<?php echo URL; ?>public/css/style.css" rel="stylesheet"/>
+        <link  href="<?php echo URL; ?>public/css/ourstyles.css" rel="stylesheet"/>
+
+        <!-- Adjuntamos los JavaScript -->
         <script type="text/javascript" src="<?php echo URL; ?>public/js/jquery.min.js"></script>
         <script src="<?php echo URL; ?>public/js/materialize/js/bin/materialize.min.js" defer></script>
         <script async="true" src="<?php echo URL; ?>public/js/script.js" type="text/javascript"></script>

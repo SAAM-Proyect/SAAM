@@ -98,6 +98,8 @@
         function createSession($username, $id){
             Session::setValue('U_NAME', $username);
             Session::setValue('ID', $id);
+            $data["id"]=Session::getValue("ID");
+            Session::setValue("U_DATA", $this->model->getUser($data)[0]);
         }
         function salir(){
             Session::destroy();

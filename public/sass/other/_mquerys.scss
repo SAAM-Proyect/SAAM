@@ -30,8 +30,7 @@
 
   @mixin color_clase($color){
       .#{$color} > h2{
-          //background-image: url(../img/#{$color}.png);
-          background-image: url("../img/#{'+$color+'}.png");
+          background-image: url(../img/#{$color}.png);
           color: $color;
           #{$fsize}: 20px;
       }
@@ -53,8 +52,6 @@
   @include color_clase(white);
   @include color_clase(blue);
   @include color_clase(green);
-
-
 
   //Sentencias IF ELSE
   @mixin condicional($color){
@@ -82,7 +79,6 @@
       @extend %button;
       @include condicional(blue);
   }
-
   /*Estructura FOR*/
   $empieza: 0;
   $termina: 3;

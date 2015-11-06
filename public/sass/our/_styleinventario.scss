@@ -1,0 +1,119 @@
+*{
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body{
+  background: #FEFEFE;
+  overflow-x: hidden;
+}
+.global{
+
+  width: 100%;
+  z-index: 8000;
+
+}
+
+/* Elemento del sidebar*/
+.sidebar{
+  position: absolute;
+  width: 20%;
+  height: 100%;
+  background:#333;
+  color: #fff;
+  outline: 1px solid #2a2a2a;
+}
+
+.sidebar p{
+  text-align:  center;
+}
+
+#icon-sidebar a {
+
+  background-color: #7e57c2;
+}
+/* */
+.tablaInventario{
+  width: 40%;
+  height: 40%;
+  margin-left: 200px;
+  position: relative;
+  float: left;
+  transition: all 0.3s;
+}
+.sidebar ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar a{
+  display: block;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+.sidebar li{
+  outline: 1px solid #2a2a2a;
+  transition: border 0.3s;
+
+}
+.sidebar li:hover{
+  background: #444;
+  border-left: 5px solid #8e24aa;
+}
+.contenido{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: #eee;
+  padding: 15px;
+  transition: all 0.3s;
+}
+
+.abrir{
+  transform: translateX(250px);
+  transition:  0.3s;
+}
+
+.ocultar{
+  visibility: hidden;
+}
+.aparecer{
+  visibility: visible;
+}
+/*
+.menu_bar{
+	display: none;
+}
+header{
+	width: 100%;
+}
+header nav{
+	background: #023859;
+	z-index: 1000;
+	max-width: 1000px;
+	width: 95%;
+	margin: 20px auto;
+}
+header nav ul{
+	list-style: none;
+}
+header nav ul li:hover{
+	background: #E6344A;
+}
+header nav ul li{
+	display: inline-block;
+	position: relative;
+}
+header nav ul li a{
+	color: #fff;
+	display: block;
+	padding: 20px;
+
+}
+header nav ul li a span{
+	margin-right: 10px;
+}*/

@@ -8,5 +8,4 @@
         <span>Precio</span>
         <input type="number" name="Precio">
     </form>
-
 <?php require('views/footer.php'); ?>

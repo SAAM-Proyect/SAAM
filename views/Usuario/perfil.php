@@ -1,28 +1,32 @@
 <?php require('views/header.php'); ?>
 <?php echo $this->userData['password'] = ""; ?>
-<div id="backPerfil">
-    <img src="<?php echo URL; ?>public/img/profile.jpg" draggable="false" />
-    <div class="">Hola2</div>
-    <div class="infoProfile">Hola</div>
-</div>
-<div class="separatorProfile"></div>
-<div class="formWrapper">
-    <?php
+    <div class="row">
+        <div class="col s12 grid-example"><span class="flow-text">This div is 12-columns wide on all screen sizes</span></div>
+        <div class="col s6 offset-s6 grid-example"><span class="flow-text">6-columns (offset-by-6)</span></div>
+    </div>
+    <div id="backPerfil">
+        <img src="<?php echo URL; ?>public/img/profile.jpg" draggable="false" />
+        <div class="">Hola2</div>
+        <div class="infoProfile">Hola</div>
+    </div>
+    <div class="separatorProfile"></div>
+    <div class="formWrapper">
+        <?php
         $tipo = "Usuario normal";
         if($this->userData['tipo']==1){
             $tipo = "Administrador";
         }
-    ?>
-    <form name="profileForm" class="fancyForm" style="margin-top: 50px;">
-        <input type="text" name="name" value="<?php echo $this->userData['Nombre']; ?>" placeholder="Nombre">
-        <input type="text" name="username" value="<?php echo $this->userData['Apellido']; ?>" placeholder="Username">
-        <input type="email" name="email" value="<?php echo $this->userData['Correo']; ?>" placeholder="Email">
-        <input type="text" name="password" value="<?php echo $tipo; ?>" placeholder="Password" required="required">
-        <button onclick="updateUser(<?php echo $this->userData['id_Usuario']; ?>)">Actualizar</button>
-        <button onclick="deleteUser(<?php echo $this->userData['id_Usuario']; ?>)">Darme de baja</button>
-    <?php  //echo count($this->userData); ?>
-    </form>
-</div>
+        ?>
+        <form name="profileForm" class="fancyForm" style="margin-top: 50px;">
+            <input type="text" name="name" value="<?php echo $this->userData['Nombre']; ?>" placeholder="Nombre">
+            <input type="text" name="username" value="<?php echo $this->userData['Apellido']; ?>" placeholder="Username">
+            <input type="email" name="email" value="<?php echo $this->userData['Correo']; ?>" placeholder="Email">
+            <input type="text" name="password" value="<?php echo $tipo; ?>" placeholder="Password" required="required">
+            <button onclick="updateUser(<?php echo $this->userData['id_Usuario']; ?>)">Actualizar</button>
+            <button onclick="deleteUser(<?php echo $this->userData['id_Usuario']; ?>)">Darme de baja</button>
+            <?php  //echo count($this->userData); ?>
+        </form>
+    </div>
 <script>
     $(function(){
        $('#buttonBack').click(function(){

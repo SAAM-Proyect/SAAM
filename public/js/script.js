@@ -49,6 +49,7 @@ function loadScript(src) {
         fileref.setAttribute("src", src);
         document.getElementsByTagName("head")[0].appendChild(fileref);
     }
-    
 };
+
+
 //<script async src="public/js/script.js" type="text/javascript"></script>

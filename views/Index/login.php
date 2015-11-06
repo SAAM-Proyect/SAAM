@@ -1,15 +1,6 @@
 <?php require 'views/head.php';?>
     <div class="contenedor">
-
         <div class="area1">
-            <!--div class="sliderChild">
-                <ul class="bxslider">
-                    <li><img src="<?php echo URL; ?>public/img/slider/1.jpg" /></li>
-                    <li><img src="<?php echo URL; ?>public/img/slider/2.jpg" /></li>
-                    <li><img src="<?php echo URL; ?>public/img/slider/3.jpg" /></li>
-                    <li><img src="<?php echo URL; ?>public/img/slider/4.jpg" /></li
-                </ul>
-            </div-->
             <script type="text/javascript">
                 var posImg = 0;
                 var total = 0;
