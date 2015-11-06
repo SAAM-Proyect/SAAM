@@ -1,5 +1,5 @@
 <?php
-    define('URL', 'http://www.saam.mx/');
+    define('URL', 'http://localhost/SAAM/');
     define('LIBS','libs/');
 
     define('DB_TYPE','mysql');

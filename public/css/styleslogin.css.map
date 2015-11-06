@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,oCAAqC;EACnC,oCAAoC;IAAC,KAAK,EAAE,YAAY;IAAE,QAAQ,EAAE,QAAQ;;EAC5E,UAAU;IACR,UAAU,EAAE,GAAG;AAGnB,6BAA0B;EACxB,KAAK,EAAE,eAAe",
+"sources": ["../sass/other/_styleslogin.scss"],
+"names": [],
+"file": "styleslogin.css"
+}

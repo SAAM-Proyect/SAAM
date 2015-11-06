@@ -572,14 +572,14 @@ nav  ul  a {
 .button-Users{
   width: 84% !important;
   background-size: 24px;
-  /*background: url("#{$rutaimg}/#{$imgUser}") no-repeat 5px 10px;*/
+  //background: url("#{$rutaimg}/#{$imgUser}") no-repeat 5px 10px;
   padding-left: 35px !important;
   vertical-align: middle;
 }
 .has-sub > ul li a{color: #f9f9f9 !important; }
 .button-security{
   width: 84% !important;
-  /*background-image: url("#{$rutaimg}/#{$imgSecu}");*/
+  //background-image: url("#{$rutaimg}/#{$imgSecu}");
   background-size: 20px;
   background: no-repeat 5px 12px;
   padding-left: 35px !important;
@@ -587,7 +587,7 @@ nav  ul  a {
 }
 .button-email{
   width: 84% !important;
-  /*background-image: url("#{$rutaimg}/#{$imgEmail}");*/
+  //background-image: url("#{$rutaimg}/#{$imgEmail}");
   background-size: 20px;
   background: no-repeat 5px 12px;
   padding-left: 35px !important;
