@@ -13,8 +13,8 @@ body {
   background-color: #f2f2f2 !important;
 }
 
-.fondox {
-  background: #000000 url("../../img/hola.jpg") no-repeat center center fixed;
+.fondox{
+  background: #000000 url('../img/hola.jpg') no-repeat center center fixed;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -140,6 +140,37 @@ input[type=submit] {
 .smallText.button {
   display: inline;
   cursor: pointer;
+}
+.passRecover > a, .returnLogin > a{
+  color: #aaa;
+  font-weight: 300;
+  text-align:center;
+}
+.passRecover, .returnLogin{text-align:center;}
+.centerdiv > p{
+  color: #9A5EAD;
+  margin: 0 auto;
+  font-size: 22px;
+  text-align: center;
+}
+.centerdiv  input[type="text"], .centerdiv  input[type="password"], .centerdiv  input[type="email"]{
+  border-radius: 4px;
+  border: 3px solid rgba(154, 94, 173, 0.3) !important;
+  padding: 0 0 0 10px;
+  width: 95%;
+  color: #aaa;
+}
+.centerdiv button{
+  border-radius: 4px;
+  background-color: rgba(128, 0, 128, 0.6) !important;
+  color: #FFF;
+  border: 3px solid #d3d3d3;
+  padding: 7px;
+
+}
+.centerdiv button:hover{
+  background-color: rgba(128, 0, 128, 0.9) !important;
+  color: #FFF;
 }
 
 .hidden {

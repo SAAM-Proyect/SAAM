@@ -3,7 +3,11 @@
   .centerdiv{
     margin-top: 20%;
   }
-}
-#cssmenu>ul>li:last-child {
-  float: left !important;
+  #cssmenu>ul>li:last-child {
+    float: left !important;
+  }
+
+  #cssmenu > ul > li:last-child{
+    min-width: 170px !important;
+  }
 }
