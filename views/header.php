@@ -15,7 +15,6 @@
     <link  href="<?php echo URL; ?>public/css/style.css" rel="stylesheet"/>
     <link  href="<?php echo URL; ?>public/css/ourstyles.css" rel="stylesheet"/>
     <link href="<?php echo URL; ?>public/css/styleslogin.css" rel="stylesheet"/>
-
     <!-- Adjuntamos los Javascript -->
     <script type="text/javascript" src="<?php echo URL; ?>public/js/jquery.min.js"></script>
     <script src="<?php echo URL; ?>public/js/materialize/js/bin/materialize.min.js" defer></script>
