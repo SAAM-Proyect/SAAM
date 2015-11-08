@@ -13,7 +13,7 @@
         function proveedores(){
             if(Session::exist()){
                 $this->view->getProveedores = $this->model->_getProveedores();
-                return $this->view->render($this,"proveedores");
+                return $this->view->render($this,"select_proveedores");
             }
         }
         function inventario(){
@@ -31,14 +31,14 @@
         }
         function ventas(){
             $this->view->getVentas = $this->model->_getVentas();
-            return $this->view->render($this,"ventas");
+            return $this->view->render($this,"select_ventas");
         }
         function cortes(){
             $this->view->getCortes = $this->model->_getCortes();
-            return $this->viewrender($this,"cortes");
+            return $this->viewrender($this,"select_cortes");
         }
         function productos(){
             $this->view->getProducts = $this->model->_getProducts();
-            return $this->view->render($this, "productos");
+            return $this->view->render($this, "select_productos");
         }
     }

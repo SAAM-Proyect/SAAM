@@ -2,7 +2,7 @@
 <!- Obterner informacion de hijos de un div-->
 <div class="global">
     <div class="sidebar">
-        <div><p>Menú</p></div>
+        <div><p>Menï¿½</p></div>
         <ul>
             <li class="elemento"><a id="seleccion" href="#"><span class="icon-user"></span><span>Clientes</span></a></li>
             <li class="elemento"><a id="seleccion" href="#"><span class="icon-user-tie"></span><span>Proveedores</span></a></li>
@@ -54,7 +54,7 @@
                     $.ajax({
                         type: 'POST',
                         url: '<?php echo URL; ?>' + 'Inventario/productos',
-                        data: "12"
+                        data: "12"|
                     }).done(function (response) {
 
                         $("#myContent").html(response);
