@@ -14,7 +14,7 @@
                 $miarray=$this->Datos_Faqs;
                 for($i=0;$i< count($miarray);$i++){
                     echo "</br>";
-                    echo "<div id='fondo'>";
+                    echo "<div class='fondo'>";
                     foreach($miarray[$i] as $comentario=> $valor){
                        if($comentario==="asunto"||$comentario==="comentario"||$comentario==="Alias" ){
                            echo $valor;

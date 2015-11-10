@@ -5,6 +5,7 @@
     <title>FAQS</title>
 </head>
 <body>
+<div id="mycontainer"></div>
 <form name="faqs_form">
     <input type="text" name="Asunto" placeholder="Asunto"/>
     <textarea type="text" name="Pregunta" placeholder="Comentario" ></textarea>
@@ -12,7 +13,6 @@
     <input id="crear" type="submit" name="Enviar" value="Comentar"/>
 </form>
 <div class="mensajex"></div>
-<div id="mycontainer"></div>
 </body>
 </html>
 

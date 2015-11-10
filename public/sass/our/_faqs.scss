@@ -1,5 +1,25 @@
 .mensajex{
   border: 3px solid red;
   padding: 10px;
-  background: green;
+  background: blue;
+}
+.fondo{
+  display: inline-table;
+  background: rgba(0, 0, 0, 0.3);
+  width: 400px;
+  height: 35%;
+  bottom: 25%;
+  left: 33%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding: 40px;
+}
+.nose{
+  display: inline-flex;
+  max-height: 400px;
+  overflow-y: auto;
+  display: block;
+  padding-bottom: 10px;
 }
