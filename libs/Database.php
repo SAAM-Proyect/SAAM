@@ -27,12 +27,14 @@ class Database extends PDO{
         }
         return $sth->execute();
     }
+
     /**
      * @param $ProcedureName
      * @param $data
      * @param array $array
      * @param int $fetchMode
      * @return mixed
+     * @internal param $ProcedureNameASZ
      */
     public function procedure_S($ProcedureName, $data, $array=array(), $fetchMode = PDO::FETCH_ASSOC)
     {
@@ -110,7 +112,7 @@ class Database extends PDO{
      * 
      * @param String $sql La consulta
      * @param Array $array Parámetros para hacer el Bind
-     * @param constant $fetchMode El fetch mode de PDO
+     * @param Int $fetchMode El fetch mode de PDO
      * @return mixed
      */
     public function select($sql, $array=array(), $fetchMode = PDO::FETCH_ASSOC){
@@ -121,10 +123,12 @@ class Database extends PDO{
         $sth->execute();
         return $sth->fetchAll($fetchMode);
     }
+
     /**
-     * 
+     *
      * @param String $table
      * @param Array $data Arreglo de strings asociativo
+     * @return bool
      */
     public function insert($table, $data){
         ksort($data);
@@ -136,11 +140,13 @@ class Database extends PDO{
         }
         return $sth->execute();
     }
+
     /**
-     * 
+     *
      * @param String $table Nombre de la tabla
      * @param Array $data El arreglo de los datos o los strings asociativos
      * @param String $where La condición de nuestra consulta
+     * @return bool
      */
     public function update($table, $data, $where)
     {
@@ -157,11 +163,12 @@ class Database extends PDO{
         }
         return $sth->execute();
     }
+
     /**
-     * 
+     *
      * @param String $tabla Nombre de la tabla
      * @param String $where Nuestra condición WHERE
-     * @param String $limit Es el límite para evitar sentencias maliciosas
+     * @param int|String $limit Es el límite para evitar sentencias maliciosas
      * @return mixed
      */
     public function delete($tabla, $where, $limit=1){
