@@ -54,12 +54,11 @@
                     $.ajax({
                         type: 'POST',
                         url: '<?php echo URL; ?>' + 'Inventario/productos',
-                        data: "12"|
+                        data: "12"
                     }).done(function (response) {
 
                         $("#myContent").html(response);
                     });
-                    break;
                 case "Clientes":
 
                     break;

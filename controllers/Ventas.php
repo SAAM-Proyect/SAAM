@@ -12,5 +12,9 @@ class Ventas extends Controller{
             header('Location: '.URL);
         }
     }
+    function productos(){
+        $this->view->Productos = $this->model->_getproductos();
+        return $this->view->render($this,"productos");
+    }
 
 }

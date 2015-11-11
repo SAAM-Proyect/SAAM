@@ -8,25 +8,24 @@
 }
 .ticketVentas{
   height: 70%;
-  width: 30px;
+  width: 30%;
   background-color: #FFFFFF;
-  display: inline-flex;
   margin: 0;
   margin-left: -5px;
-  margin-bottom: -8px;
-  position: fixed;
+  margin-bottom: -6px;
+  display: inline-block;
   padding: 0;
 }
 
 .productosVentas{
   height: 70%;
-  width: 70px;
-  background-color: #004d40;
+  width: 70%;
+  background-color: #a21318;
   display: inline-flex;
   position: fixed;
   margin: 0;
   margin-left: -5px;
-  margin-bottom: -8px;
+  margin-bottom: -6px;
   padding: 0;
   -webkit-overflow-x: auto !important;
   -moz-overflow-x: auto !important;
@@ -38,31 +37,45 @@
   height: 30%;
   width: 100%;
   background-color: #000000;
+  display: block;
 }
 .hijos{
-  height: 100%;
+  height: 80%;
   min-width: 280px;
   margin-left: 20px;
-  background-color: #f4e;
+
   display: inline-flex;
 }
-
+.botonesOpcion{
+  margin: 10px;
+  background-color: #1485CC;
+  width: 90px;
+  height: 90px;
+  display: inline-block;
+}
+.botonesOpcion:hover{
+  border-color: #880e4f;
+}
+.ticketProductos{
+  padding: 0;
+  margin: 0;
+}
+.imgHijos{
+  height: 80%;
+  width: 50%;
+}
 .global{
   height: 100%;
   width: 100%;
   background-color: #5a5a5a;
-  display: flex;
-  margin-left: 310px;
-  margin-top: 6px;
 }
 .compra{
-
-  padding-bottom: 50px;
-  padding-top: 50px;
+  overflow: auto;
   margin: 0 auto;
-  height: 40%;
-  width: 200px;
-  margin-bottom: 50px;
-  margin-top: 50px;
-  background-color: #006064;
+  height: 90%;
+  width: 80%;
+  position: relative;
+  margin-top: 20px;
+
+  background-color: #FFFFFF;
 }
