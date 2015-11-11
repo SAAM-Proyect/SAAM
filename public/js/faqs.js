@@ -3,7 +3,7 @@
  */
 $(document).ready(function(){
     $(".mensajex").hide();
-    var urlx = "http://www.saam.mx/";
+    var urlx = "http://localhost/SAAM/";
     cargar_todos();
     function cargar_todos(){
         $.ajax({
