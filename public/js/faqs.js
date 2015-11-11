@@ -12,6 +12,13 @@ $(document).ready(function(){
         }).done(function(response){
             $("#mycontainer").html(response);
         });
+
+        $.ajax({
+            type:'POST',
+            url: urlx+'Faqs/frecuentes'
+        }).done(function(response){
+            $("#Preguntar").html(response);
+        });
     };
     $("#crear").click(function(e){
         var asunto= $('form[name=faqs_form] input[name=Asunto]').val();

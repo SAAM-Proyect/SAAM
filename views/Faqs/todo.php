@@ -10,7 +10,7 @@
     </head>
     <body>
             <?php
-                echo "<form class='nose'>";
+                echo "<form class='Preguntas'>";
                 $miarray=$this->Datos_Faqs;
                 for($i=0;$i< count($miarray);$i++){
                     echo "</br>";
