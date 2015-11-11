@@ -1,2 +1,5 @@
 /config.php
 # Created by .ignore support plugin (hsz.mobi)
+config.php
+.idea/jsLibraryMappings.xml
+.idea/workspace.xml

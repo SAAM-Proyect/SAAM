@@ -1,0 +1,80 @@
+*{
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.ticketVentas{
+  height: 70%;
+  width: 30%;
+  background-color: #FFFFFF;
+  margin: 0;
+  margin-left: -5px;
+  margin-bottom: -6px;
+  display: inline-block;
+  padding: 0;
+}
+
+.productosVentas{
+  height: 70%;
+  width: 70%;
+  background-color: #a21318;
+  display: inline-flex;
+  position: fixed;
+  margin: 0;
+  margin-left: -5px;
+  margin-bottom: -6px;
+  padding: 0;
+  -webkit-overflow-x: auto !important;
+  -moz-overflow-x: auto !important;
+  -o-overflow-x: auto !important;
+  overflow-x: auto !important;
+  overflow-y: hidden !important;
+}
+.botonesVentas{
+  height: 30%;
+  width: 100%;
+  background-color: #000000;
+  display: block;
+}
+.hijos{
+  height: 80%;
+  min-width: 280px;
+  margin-left: 20px;
+
+  display: inline-flex;
+}
+.botonesOpcion{
+  margin: 10px;
+  background-color: #1485CC;
+  width: 90px;
+  height: 90px;
+  display: inline-block;
+}
+.botonesOpcion:hover{
+  border-color: #880e4f;
+}
+.ticketProductos{
+  padding: 0;
+  margin: 0;
+}
+.imgHijos{
+  height: 80%;
+  width: 50%;
+}
+.global{
+  height: 100%;
+  width: 100%;
+  background-color: #5a5a5a;
+}
+.compra{
+  overflow: auto;
+  margin: 0 auto;
+  height: 90%;
+  width: 80%;
+  position: relative;
+  margin-top: 20px;
+
+  background-color: #FFFFFF;
+}

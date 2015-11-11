@@ -4,7 +4,7 @@ class Faqs_model extends Model{
         parent:: __construct();
     }
     function all_faqs(){
-        return $this->db->Views_All('todos_FAQs');
+       return $this->db->Views_All('todos_FAQs');
     }
     function Crear_Faq($data){
         return $this->db->procedure_S('insertar_faqs',$data);

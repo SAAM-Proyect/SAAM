@@ -7,10 +7,12 @@ and open the template in the editor.
     Created on : 15/08/2015, 07:22:21 PM
     Author     : Horacio
 */
+
+@import "other/_variables";
 @import "our/_estilosMoises.scss";
 @import "our/_faqs.scss";
 @import "our/_fontsinventarios.scss";
 @import "our/_tareasestilos.scss";
 @import "our/_styleinventario.scss";
 @import "our/_menu.scss";
-@import "other/_variables";
+@import "our/styleventas";
