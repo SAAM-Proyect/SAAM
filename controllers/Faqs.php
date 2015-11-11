@@ -13,6 +13,10 @@ class Faqs extends Controller
         $this->view->Datos_Faqs = $this->model->all_faqs();
         $this->view->render($this,'todo');
     }
+    function frecuentes(){
+        $this->view->Datos_Faqs = $this->model->all_faqs();
+        $this->view->render($this,'frecuentes');
+    }
     function insertar(){
         $data["fecha"]=date("Y-m-d H:i:s");
         $data["Pregunta"]=$_POST["Pregunta"];
