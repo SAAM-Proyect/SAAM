@@ -44,7 +44,11 @@
                 $response = $response[0];
                 if($response["Contrasena"] == Hash::create(ALGO,$_POST["contrasena"], HASH_KEY)){
                     $array = array();
+<<<<<<< Updated upstream
                     $this->createSession($response["Alias"],$response["id_Usuario"], $array);
+=======
+                    $this->createSession($response["Alias"],$response["id_Usuario"],$array);
+>>>>>>> Stashed changes
                     //$this->createSession($response["username"]);
                     //echo '<script>alert("'.$response["id_Users"].'");</script>';
                     echo 1;
@@ -96,6 +100,7 @@
             return $this->model->_callProcedureSelect('seleccion_usuariosPortipo', $data);
         }
         //Pasar un parámetro de ID si es necesario
+<<<<<<< Updated upstream
         function createSession($username, $id, $array){
             $_SESSION["ArrayProductos"]= $array;
             $arrayx = array(
@@ -104,6 +109,10 @@
             );
             array_push($_SESSION["ArrayProductos"],$arrayx);
 
+=======
+        function createSession($username, $id,$array){
+            $_SESSION['ArrayProductos'] = $array;
+>>>>>>> Stashed changes
             Session::setValue('U_NAME', $username);
             Session::setValue('ID', $id);
             $data["id"]=Session::getValue("ID");

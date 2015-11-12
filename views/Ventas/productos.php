@@ -17,7 +17,7 @@ for($i = 0; $i <count($this->Productos); $i++){
             $product->id = $valor;
         }
         if ($key == "Nombre_Producto") {
-            $product->imagen ="http://lorempixel.com/400/200/sports/1";
+            $product->imagen ="http://lorempixel.com/400/200/";
             $product->Nombre = $valor;
 
         }
@@ -25,7 +25,7 @@ for($i = 0; $i <count($this->Productos); $i++){
             $product->descripcion = $valor;
 
         }
-        if ($key == "PrecioVenta") {
+        if ($key == "existencias") {
             $product->Precio = $valor;
 
         }

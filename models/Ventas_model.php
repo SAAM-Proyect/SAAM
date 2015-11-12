@@ -7,4 +7,7 @@ class Ventas_model extends Model{
     {
         return $this->db->Views_All("Select_Productos");
     }
+    function _insertProductos($data){
+        return $this->db->procedure_S("insert_productos",$data);
+    }
 }

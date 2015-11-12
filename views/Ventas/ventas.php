@@ -2,13 +2,7 @@
 <div class = "global">
     <div class ="ticketVentas">
         <div class ="compra">
-            <div clas = "ticketProductos">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea est id, illo labore laborum laudantium maiores minus, omnis quae quo quod repellat sequi voluptates voluptatibus voluptatum. Ad delectus quod voluptatibus.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam consectetur dignissimos doloribus eum eveniet excepturi incidunt laborum minus odio omnis perferendis perspiciatis reprehenderit repudiandae saepe, soluta sunt totam voluptas.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea eligendi magnam quas quo repudiandae soluta vel voluptates voluptatum! At deserunt ipsa iste itaque nihil omnis quos recusandae repellendus sed vel.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus deserunt dicta dolore eaque eligendi fuga modi, nemo numquam porro reprehenderit saepe sed sunt ut velit veniam! Architecto cupiditate repellat sed.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, consequuntur ea eaque exercitationem labore minima sapiente tenetur vel velit. Amet at consequuntur delectus facilis impedit iste laudantium quia veritatis voluptas.</p>
-            </div>
+            <p class="par">algo</p>
         </div>
     </div>
     <div class="productosVentas">
@@ -18,8 +12,18 @@
         <input type="button" class="botonesOpcion" value="submit2"/>
         <input type="button" class="botonesOpcion" value="submit3"/>
         <input type="button" class="botonesOpcion" value="submit4"/>
-        <input type="button" class="botonesOpcion" value="submit5"/>
-        <input type="button" class="botonesOpcion" value="submit6"/>
+        <input type="button" class="botonesOpcion" value="limpiar ticket"/>
+        <input type="button" class="botonesOpcion" value="vender"/>
+    </div>
+    <div class="ventana-modal">
+        <div class="form">
+            <div class="cerrar-ventana"><a href="#">Cerrar X</a></div>
+            <h4>Confirmar venta</h4>
+            <form action="">
+                <input type="button" class="button-ventana" id="cancelar-ventana" value="Cancelar"/>
+                <input type="button" class="button-ventana" id="aceptar-ventana"value="Aceptar"/>
+            </form>
+        </div>
     </div>
 </div>
 <script>
@@ -32,26 +36,69 @@
         }).done(function (response) {
             $(".productosVentas").html(response);
         });
-
-        $(".botonesOpcion").click(function(){
-            alert($(this).val());
-        });
         $(document).load(function(){
             $('.idd').hide();
         });
         $(document).on('click','.hijos',function(){
-
             var pru =  $(this).find('figcaption').attr('class');
             if(pru == 'idd') {
                 var pru1 =  $(this).find('figcaption.idd').html();
-            }
-           //var element = $(this).children('figure').children('figcaption .idd').html();
 
+                $.ajax({
+                    type:'POST',
+                    url: "<?php URL;?>" + "Ventas/ventasProducto",
+                    data:{id:pru1}
+                }).done(function(response){
+                    $(".compra").fadeOut().html(response).fadeIn('slow');
+                });
+            }
         });
-        /*$('.hijos').click(function(){
-           var a = $(this).children('span').html();
-            alert(a);
-        });*/
+        $(document).on('click','.botonesOpcion',function(){
+            //Opciones de venta
+            $botonOpcion = $(this).val();
+            switch($botonOpcion){
+                case 'vender':
+                    $('.ventana-modal').slideDown('slow');
+                    break;
+                case 'limpiar ticket':
+
+                    '<?php $_SESSION["ArrayProductos"] = array();?>'
+                    alert("asf");
+                    $.ajax({
+                        type:'POST',
+                        url: "<?php URL;?>" + "Ventas/ventasProducto",
+                        data:{id:''}
+                    }).done(function(response){
+                        $(".compra").fadeOut().html(response).fadeIn('slow');
+                    });
+                    break;
+                case 'submit4':
+                    alert("das");
+            }
+            if($(this).val()=="vender"){
+
+            }
+        });
+        $(document).on('click','.cerrar-ventana',function(){
+           $('.ventana-modal').slideUp('slow');
+        });
+        $(document).on('click','.button-ventana',function(){
+            if($(this).val()=='Cancelar'){
+                $('.ventana-modal').slideUp('fast');
+            }else if($(this).val()=='Aceptar'){
+                $('.ventana-modal').slideUp('fast');
+            }
+        })
+    });
+</script>
+<script>
+    $(function(){
+        $('.hijos').draggable({herlper:'clone'});
+        $('.compra').droppable({
+             drop:function(event,ui){
+                $(this).find('.ticketProductos').html("hecho");
+             }
+        });
     });
 </script>
 <?php require('views/footer.php'); ?>
