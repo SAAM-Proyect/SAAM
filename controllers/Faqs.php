@@ -9,7 +9,6 @@ class Faqs extends Controller
         $this->view->render($this,'Faqs');
     }
     function todo(){
-
         $this->view->Datos_Faqs = $this->model->all_faqs();
         $this->view->render($this,'todo');
     }

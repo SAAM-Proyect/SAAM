@@ -43,7 +43,8 @@
                 $response = $this->model->_callProcedureSelect($data);
                 $response = $response[0];
                 if($response["Contrasena"] == Hash::create(ALGO,$_POST["contrasena"], HASH_KEY)){
-                    $this->createSession($response["Alias"],$response["id_Usuario"]);
+                    $array = array();
+                    $this->createSession($response["Alias"],$response["id_Usuario"], $array);
                     //$this->createSession($response["username"]);
                     //echo '<script>alert("'.$response["id_Users"].'");</script>';
                     echo 1;
@@ -95,7 +96,14 @@
             return $this->model->_callProcedureSelect('seleccion_usuariosPortipo', $data);
         }
         //Pasar un parámetro de ID si es necesario
-        function createSession($username, $id){
+        function createSession($username, $id, $array){
+            $_SESSION["ArrayProductos"]= $array;
+            $arrayx = array(
+                array("hakjdhs", "as"),
+                array("aaa", "bbb")
+            );
+            array_push($_SESSION["ArrayProductos"],$arrayx);
+
             Session::setValue('U_NAME', $username);
             Session::setValue('ID', $id);
             $data["id"]=Session::getValue("ID");
