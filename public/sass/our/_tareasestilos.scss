@@ -4,10 +4,12 @@ footer{
 /*estilos irvvin*/
 .inicial{
   border-style: solid;
-  border-top: 35px solid rgba(128, 0, 128, 0.5);
-  border-color: rgba(128, 0, 128, 0.5);
-  width: 18%;
+  border-top: 35px solid purple;
+  border-color: purple;
+  width: 300px;
   height: 86%;
+  padding-left: 7px;
+  padding-top: 3px;
   position: fixed;
   margin-left: 5px;
   margin-top: 6px;
@@ -20,8 +22,9 @@ footer{
   margin-right: auto;
 }
 .textpos{
+  position: absolute;
   margin-top: -28px;
-  margin-left: 60px;
+  margin-left: 80px;
 }
 .cont{
   -webkit-overflow-x: auto !important;
@@ -29,39 +32,42 @@ footer{
   -o-overflow-x: auto !important;
   overflow-x: auto !important;
   overflow-y: hidden !important;
-  width: 80%;
+  width: 1200px;
   height: 86%;
   padding-right: 12px !important;
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 5px;
-  margin-left: 19%;
+  margin-left: 310px;
   margin-top: 6px;
   border-radius: 10px;
   border-style: solid;
-  border-color: rgba(128, 0, 128, 0.5);
+  border-color: purple;
   display: inline-flex;
 }
 .posicion{
-  background-color: #D6A8E6;
+  padding-left: 7px;
+  padding-top: 2px;
+  background-color: #f2f2f2;
   height: 100%;
-  min-width: 280px;
-  display: inline-flex;
-  border: 7px solid rgb(180, 100, 180);
-  border-top: 35px solid rgb(180, 100, 180);
+  min-width: 310px;
+  max-width: 310px;
+  display: block;
+  border: 7px solid purple;
+  border-top: 35px solid purple;
   border-top-left-radius: 20px;
   margin-right: 12px !important;
-  text-align: center;
 }
 
 .icon{
+  position: absolute;
   border-radius: 50%;
   width: 45px;
   height: 45px;
-  margin-top: -35px;
-  margin-left: -8px;
+  margin-top: -36px;
+  margin-left: -14px;
   text-align: center;
-  background-color: rgb(180, 100, 180);
+  background-color: purple;
 }
 .imag{
   margin-left: auto;
@@ -74,11 +80,15 @@ footer{
 }
 
 .relleno{
-  display: table;
-  width: 1px;
+  display: inline-table;
+  width: 2px;
   height: 100%;
   border: 10px;
 }
+.Form_tarea{
+  margin-top: 10px;
+}
+
 /*@media (min-width: 850px) {
     .posicion {
         margin-right: 12px;
@@ -106,3 +116,30 @@ footer{
         height: 15px;
     }
 }*/
+
+.column {
+
+}
+.portlet {
+  margin: 0 1em 1em 0;
+  padding: 0.3em;
+}
+.portlet-header {
+  padding: 0.2em 0.3em;
+  margin-bottom: 0.5em;
+  position: inherit;
+}
+.portlet-toggle {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  margin-top: -8px;
+}
+.portlet-content {
+  padding: 0.4em;
+}
+.portlet-placeholder {
+  border: 1px dotted black;
+  margin: 0 1em 1em 0;
+  height: 50px;
+}
