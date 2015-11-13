@@ -6,7 +6,7 @@
                 <div class="row-fluid">
                     <div class="span12">
                         <h3 class="page-title">
-                            Dashboard <small>statistics and more</small>
+                            Inicio <small>Datos principales</small>
                         </h3>
                     </div>
                 </div>

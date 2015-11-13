@@ -37,13 +37,13 @@
         </a>
     </li>
     <li class="">
-        <a href="javascript:;">
+        <a href="<?php echo URL;?>Inventario/inventario">
             <i class="icon-shopping-cart"></i>
             <span class="title">Inventario</span>
         </a>
     </li>
     <li class="">
-        <a href="javascript:;">
+        <a href="<?php echo URL; ?>Faqs/faqs">
             <i class=" icon-question-sign"></i>
             <span class="title">Faqs</span>
         </a>
